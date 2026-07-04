@@ -1,6 +1,7 @@
 .venv/
 .env
-output/
+output/*.wav
+output/*.mp4
 __pycache__/
 *.pyc
 state/token.json

@@ -4,7 +4,7 @@ from src.state import State
 
 def test_run_pipeline_happy_path(tmp_path, monkeypatch):
     monkeypatch.chdir(tmp_path)
-    (tmp_path / "output").mkdir(); (tmp_path / "assets").mkdir()
+    (tmp_path / "assets").mkdir()
     (tmp_path / "assets" / "cover.png").write_bytes(b"x")
     cfg = config.Config(subreddits=["tifu"], min_score=100, min_len=5, max_len=9999,
         hosts={"Max": "Charon", "Ivy": "Kore"},
@@ -28,6 +28,10 @@ def test_run_pipeline_happy_path(tmp_path, monkeypatch):
     assert st.is_seen("a")
     assert st.episodes()[0]["description"] == "d"
     assert st.episodes()[0]["length_bytes"] == 0   # fake runner writes no real mp3
+    import os as _os
+    assert _os.path.isdir("output")               # run() created it
+    assert _os.path.exists("output/feed.xml")      # RSS published
+    assert _os.path.exists("output/cover.png")     # cover copied for Pages
 
 def test_yt_service_none_when_env_partial(monkeypatch):
     from src import main
