@@ -1,0 +1,14 @@
+subreddits: [AmItheAsshole, pettyrevenge, ProRevenge, MaliciousCompliance, entitledparents, tifu]
+min_score: 2000
+min_len: 800
+max_len: 6000
+hosts:
+  Max: Charon      # S1 prebuilt voice
+  Ivy: Kore        # S2 prebuilt voice
+show:
+  title: "Petty Court — Daily Internet Drama"
+  author: "Petty Court"
+  description: "Two hosts react to the internet's pettiest revenge and drama, every day."
+  base_url: "https://<user>.github.io/petty-court"   # GitHub Pages URL
+  cover: "assets/cover.png"
+  language: "en-us"
