@@ -116,3 +116,25 @@ Her modül net girdi/çıktı ile, ayrı dosya:
   `feedgen` veya elle RSS, ffmpeg (sistem binary, GHA'da hazır)
 - **Çalışma:** GitHub Actions `schedule` cron (günlük) + `workflow_dispatch` (manuel tetik/test)
 - **Güvenlik:** key'ler `.env` (local) / GHA Secrets (prod); `.env`+`.venv` gitignore
+
+## 10. Canlı doğrulama sonuçları (2026-07-04) & production caveat'leri
+
+**Uçtan uca CANLI test geçti** (gerçek Gemini + gerçek ffmpeg, Reddit yerine kanıt hikaye enjekte edildi):
+script (Gemini 2.5 Flash) → 34 replikli 2-host diyalog; TTS (multi-speaker) → 5:20 dk gerçek konuşma
+(15.3MB WAV, 24kHz mono); ffmpeg → 5.1MB MP3 (loudnorm) + 34.5MB MP4; RSS feed.xml üretildi. Zincirin
+tamamı gerçekten çalışıyor.
+
+**Production'a çıkmadan çözülmesi gereken operasyonel bulgular:**
+1. **DEDİKE Gemini key/proje şart.** Test sırasında Playground'ın ortak `AIzaSy…` key'i (01/02/04'te aynı)
+   `gemini-2.5-flash` free-tier limitine (**20 istek/gün/proje**) takıldı (`429 RESOURCE_EXHAUSTED`).
+   Bu podcast kendi Google AI Studio projesinde kendi key'ini kullanmalı; yoksa diğer botlarla kota çakışır.
+   Günlük kullanım ~2-3 Flash çağrısı + 1 TTS → dedike 20/gün'e rahat sığar, ama ölçek/ekstra çalıştırma
+   için ücretli tier düşünülmeli.
+2. **Reddit 403 (CI IP bloğu).** `reddit.fetch` public JSON, datacenter/GitHub Actions IP'lerinden 403 alıyor
+   (bu makineden de doğrulandı). Mitigasyon: Reddit OAuth ("script" app, `REDDIT_CLIENT_ID/SECRET` →
+   `oauth.reddit.com`) veya residential proxy. Aksi halde CI'da sık "aday yok / boş gün" olur. **v1'in ilk
+   gerçek işi bu.**
+3. **Gemini 503 spike'ları → retry eklendi.** Canlı testte geçici `503 UNAVAILABLE` görüldü; `src/gemini_retry.py`
+   ile 5xx'e üstel backoff retry eklendi (429/kota retry edilmez). Gözetimsiz günlük iş için kritik.
+4. **TTS uzunluk tavanı (izle):** 700-1200 kelime tek `generate_content` çağrısıyla üretiliyor; çok uzun
+   script'te truncation riski — ilk gerçek bölümlerde audio süresini kontrol et, gerekirse chunk'la.
