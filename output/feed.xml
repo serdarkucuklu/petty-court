@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Petty Court — Daily Internet Drama</title>
+    <link>https://serdarkucuklu.github.io/petty-court</link>
+    <description>Two hosts react to the internet's pettiest revenge and drama, every day.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <image>
+      <url>https://serdarkucuklu.github.io/petty-court/cover.png</url>
+      <title>Petty Court — Daily Internet Drama</title>
+      <link>https://serdarkucuklu.github.io/petty-court</link>
+    </image>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 04 Jul 2026 22:15:12 +0000</lastBuildDate>
+    <itunes:author>Petty Court</itunes:author>
+    <item>
+      <title>Boomer Work, Boomer Problems: Grandpa's Farm vs. The Exposure Expedition</title>
+      <description>This week on Petty Court, Max and Ivy dissect a Reddit story about family drama, manual labor, and the true cost of 'exposure.' Get ready for some serious entitlement from r/AmItheAsshole.</description>
+      <guid isPermaLink="false">1uni5q2</guid>
+      <enclosure url="https://serdarkucuklu.github.io/petty-court/1uni5q2.mp3" length="5846445" type="audio/mpeg"/>
+      <pubDate>Sat, 04 Jul 2026 22:15:12 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
