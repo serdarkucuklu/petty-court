@@ -60,8 +60,10 @@ def main():
     cfg = config.load()
     state = State()
     from src.sources import reddit
+    r_id = os.environ.get("REDDIT_CLIENT_ID"); r_sec = os.environ.get("REDDIT_CLIENT_SECRET")
+    reddit_token = reddit.get_token(r_id, r_sec) if (r_id and r_sec) else None
     deps = dict(
-        fetch=lambda subs: reddit.fetch(subs),
+        fetch=lambda subs: reddit.fetch(subs, token=reddit_token),
         select_fn=_gemini_select_fn(cfg),
         script_fn=script_mod.gemini_generate_fn(cfg.gemini_api_key),
         tts_fn=voice.gemini_tts_fn(cfg.gemini_api_key, cfg.hosts),
