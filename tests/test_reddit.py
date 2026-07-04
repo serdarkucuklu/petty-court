@@ -39,6 +39,7 @@ def test_get_token_returns_access_token():
     def fake_post(url, auth=None, data=None, headers=None, timeout=None):
         captured.update(url=url, auth=auth, data=data)
         class R:
+            def raise_for_status(self): pass
             def json(self): return {"access_token": "tok123", "token_type": "bearer"}
         return R()
     tok = reddit.get_token("cid", "csec", http_post=fake_post)
@@ -62,7 +63,7 @@ def test_fetch_uses_oauth_endpoint_when_token_present():
     posts = reddit.fetch(["tifu"], http_get=fake_get, token="tok123")
     assert posts[0].id == "9"
     assert seen["url"].startswith("https://oauth.reddit.com/")
-    assert seen["headers"]["Authorization"] == "bearer tok123"
+    assert seen["headers"]["Authorization"] == "Bearer tok123"
 
 def test_fetch_uses_public_endpoint_when_no_token():
     seen = {}
