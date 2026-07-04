@@ -37,3 +37,7 @@ jobs:
           path: output
       - id: deploy
         uses: actions/deploy-pages@v4
+        # Pages deploy occasionally hits a transient Azure auth error. The episode is already
+        # committed to output/ before this step, so a failed deploy self-heals on the next run
+        # (the feed lists all episodes) or via the manual Deploy Pages workflow. Don't red-X the run.
+        continue-on-error: true
