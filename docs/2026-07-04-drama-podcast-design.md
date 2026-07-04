@@ -130,10 +130,15 @@ tamamı gerçekten çalışıyor.
    Bu podcast kendi Google AI Studio projesinde kendi key'ini kullanmalı; yoksa diğer botlarla kota çakışır.
    Günlük kullanım ~2-3 Flash çağrısı + 1 TTS → dedike 20/gün'e rahat sığar, ama ölçek/ekstra çalıştırma
    için ücretli tier düşünülmeli.
-2. **Reddit 403 (CI IP bloğu).** `reddit.fetch` public JSON, datacenter/GitHub Actions IP'lerinden 403 alıyor
-   (bu makineden de doğrulandı). Mitigasyon: Reddit OAuth ("script" app, `REDDIT_CLIENT_ID/SECRET` →
-   `oauth.reddit.com`) veya residential proxy. Aksi halde CI'da sık "aday yok / boş gün" olur. **v1'in ilk
-   gerçek işi bu.**
+2. **Reddit erişimi → KEYLESS RSS'e geçildi (app gerekmez).** Public `.json` datacenter/residential IP'lerden
+   403 veriyor; ama Reddit'in public **RSS feed'i** (`/r/<sub>/top/.rss?t=day`) browser-UA ile **200** dönüyor
+   (canlı doğrulandı — gerçek AITA hikayeleri tam gövdeyle çekildi). `reddit.fetch` artık RSS parse ediyor
+   (`feedparser`); OAuth/app yolu kaldırıldı. RSS'te score yok → `min_score:0` (feed zaten `/top` sıralı).
+   **Rate-limit:** Reddit RSS ani ardışık istekleri per-IP sınırlıyor (429). Mitigasyon kodda: istekler arası
+   nazik gecikme + yeterince aday toplanınca erken çıkış (günde 1-2 istek) + 429'da backoff-retry. Günlük iş
+   bu limite yaklaşmaz. **Açık risk:** GitHub Actions datacenter IP'sinden RSS'in 200 dönüp dönmeyeceği henüz
+   doğrulanmadı — 403/429 gelirse alternatif: işi kullanıcının makinesinde Windows Task Scheduler ile çalıştırmak
+   (residential IP'den RSS çalışıyor) veya residential proxy.
 3. **Gemini 503 spike'ları → retry eklendi.** Canlı testte geçici `503 UNAVAILABLE` görüldü; `src/gemini_retry.py`
    ile 5xx'e üstel backoff retry eklendi (429/kota retry edilmez). Gözetimsiz günlük iş için kritik.
 4. **TTS uzunluk tavanı (izle):** 700-1200 kelime tek `generate_content` çağrısıyla üretiliyor; çok uzun
