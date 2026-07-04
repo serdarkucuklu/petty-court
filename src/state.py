@@ -14,11 +14,15 @@ class State:
     def is_seen(self, post_id):
         return post_id in self.seen_ids()
 
-    def record_episode(self, post_id, title, audio_filename):
+    def record_episode(self, post_id, title, audio_filename,
+                       description="", length_bytes=0, pub_date=""):
         if post_id in self.seen_ids():
             return
         self.data["used_ids"].append(post_id)
-        self.data["episodes"].append({"id": post_id, "title": title, "audio": audio_filename})
+        self.data["episodes"].append({
+            "id": post_id, "title": title, "audio": audio_filename,
+            "description": description, "length_bytes": length_bytes, "pub_date": pub_date,
+        })
         os.makedirs(os.path.dirname(self.path) or ".", exist_ok=True)
         with open(self.path, "w", encoding="utf-8") as f:
             json.dump(self.data, f, indent=2, ensure_ascii=False)

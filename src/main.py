@@ -23,13 +23,16 @@ def run(cfg, state, deps):
                  runner=deps["runner"])
     video.to_mp4(mp3, cfg.show["cover"], mp4, runner=deps["runner"])
 
-    state.record_episode(ep_id, scr.title, f"{ep_id}.mp3")
+    length = os.path.getsize(mp3) if os.path.exists(mp3) else 0
+    pub_date = datetime.now(timezone.utc).isoformat()
+    state.record_episode(ep_id, scr.title, f"{ep_id}.mp3",
+                         description=scr.description, length_bytes=length, pub_date=pub_date)
 
     # --- Publish: isolate failures per target ---
-    length = os.path.getsize(mp3) if os.path.exists(mp3) else 0
     eps = [{"id": e["id"], "title": e["title"], "audio": e["audio"],
-            "description": scr.description, "length_bytes": length,
-            "pub_date": datetime.now(timezone.utc).isoformat()} for e in state.episodes()]
+            "description": e.get("description", ""),
+            "length_bytes": e.get("length_bytes", 0),
+            "pub_date": e.get("pub_date", "")} for e in state.episodes()]
     try:
         feed = rss.build_feed(cfg.show, eps, cfg.show["base_url"])
         with open("output/feed.xml", "w", encoding="utf-8") as f:
@@ -55,9 +58,7 @@ def main():
         script_fn=script_mod.gemini_generate_fn(cfg.gemini_api_key),
         tts_fn=voice.gemini_tts_fn(cfg.gemini_api_key, cfg.hosts),
         runner=__import__("subprocess").run,
-        yt_service=youtube.build_service(
-            os.environ["YOUTUBE_CLIENT_ID"], os.environ["YOUTUBE_CLIENT_SECRET"],
-            os.environ["YOUTUBE_REFRESH_TOKEN"]) if os.environ.get("YOUTUBE_REFRESH_TOKEN") else None,
+        yt_service=_yt_service_from_env(),
     )
     result = run(cfg, state, deps)
     log.info("Done: %s", result)
@@ -73,6 +74,14 @@ def _gemini_select_fn(cfg):
         data = json.loads(fn(prompt))
         return data["id"], data.get("reason", "")
     return _select
+
+def _yt_service_from_env():
+    cid = os.environ.get("YOUTUBE_CLIENT_ID")
+    csec = os.environ.get("YOUTUBE_CLIENT_SECRET")
+    tok = os.environ.get("YOUTUBE_REFRESH_TOKEN")
+    if cid and csec and tok:
+        return youtube.build_service(cid, csec, tok)
+    return None
 
 if __name__ == "__main__":
     main()

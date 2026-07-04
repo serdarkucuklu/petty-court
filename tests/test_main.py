@@ -26,3 +26,12 @@ def test_run_pipeline_happy_path(tmp_path, monkeypatch):
     result = main.run(cfg, st, deps)
     assert result["episode_id"] == "a"
     assert st.is_seen("a")
+    assert st.episodes()[0]["description"] == "d"
+    assert st.episodes()[0]["length_bytes"] == 0   # fake runner writes no real mp3
+
+def test_yt_service_none_when_env_partial(monkeypatch):
+    from src import main
+    monkeypatch.setenv("YOUTUBE_REFRESH_TOKEN", "tok")
+    monkeypatch.delenv("YOUTUBE_CLIENT_ID", raising=False)
+    monkeypatch.delenv("YOUTUBE_CLIENT_SECRET", raising=False)
+    assert main._yt_service_from_env() is None
