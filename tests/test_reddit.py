@@ -1,78 +1,52 @@
 from src.sources import reddit
 
-def fake_get(url, headers=None, timeout=None):
-    class R:
-        status_code = 200
-        def json(self):
-            return {"data": {"children": [
-                {"data": {"id": "1", "subreddit": "tifu", "title": "T", "selftext": "long body",
-                          "score": 5000, "permalink": "/r/tifu/1", "created_utc": 1.0,
-                          "over_18": False, "stickied": False}}
-            ]}}
-    return R()
+SAMPLE = '''<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>top scoring links : pettyrevenge</title>
+<entry>
+<author><name>/u/alice</name></author>
+<category term="pettyrevenge" label="r/pettyrevenge"/>
+<content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;My neighbor kept parking in my spot so I had his car towed.&lt;/p&gt;&lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/alice&quot;&gt; /u/alice &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;x&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt;</content>
+<id>t3_abc123</id>
+<link href="https://www.reddit.com/r/pettyrevenge/comments/abc123/spot/" />
+<published>2026-07-04T04:27:43+00:00</published>
+<title>Parking spot revenge</title>
+</entry>
+</feed>'''
 
-def test_fetch_maps_posts():
-    posts = reddit.fetch(["tifu"], limit=1, http_get=fake_get)
+def make_get(text, status=200):
+    def _get(url, headers=None, timeout=None):
+        class R:
+            status_code = status
+            def __init__(self): self.text = text
+        return R()
+    return _get
+
+def test_fetch_parses_rss_entry_into_rawpost():
+    posts = reddit.fetch(["pettyrevenge"], http_get=make_get(SAMPLE))
     assert len(posts) == 1
-    assert posts[0].id == "1"
-    assert posts[0].url == "https://www.reddit.com/r/tifu/1"
-    assert posts[0].score == 5000
+    p = posts[0]
+    assert p.id == "abc123"                       # t3_ stripped
+    assert p.title == "Parking spot revenge"
+    assert p.subreddit == "pettyrevenge"
+    assert p.url.endswith("/abc123/spot/")
+    assert "parking in my spot" in p.body.lower()
+    assert "submitted by" not in p.body.lower()   # footer stripped
+    assert "<" not in p.body                        # html tags stripped
+    assert p.created_utc > 0
 
-def test_fetch_skips_nsfw_and_stickied():
-    def g(url, headers=None, timeout=None):
-        class R:
-            status_code = 200
-            def json(self):
-                return {"data": {"children": [
-                    {"data": {"id": "2", "subreddit": "tifu", "title": "T", "selftext": "b",
-                              "score": 10, "permalink": "/x", "created_utc": 1.0,
-                              "over_18": True, "stickied": False}},
-                    {"data": {"id": "3", "subreddit": "tifu", "title": "T", "selftext": "b",
-                              "score": 10, "permalink": "/x", "created_utc": 1.0,
-                              "over_18": False, "stickied": True}},
-                ]}}
-        return R()
-    assert reddit.fetch(["tifu"], http_get=g) == []
-
-def test_get_token_returns_access_token():
-    captured = {}
-    def fake_post(url, auth=None, data=None, headers=None, timeout=None):
-        captured.update(url=url, auth=auth, data=data)
-        class R:
-            def raise_for_status(self): pass
-            def json(self): return {"access_token": "tok123", "token_type": "bearer"}
-        return R()
-    tok = reddit.get_token("cid", "csec", http_post=fake_post)
-    assert tok == "tok123"
-    assert captured["auth"] == ("cid", "csec")
-    assert captured["data"] == {"grant_type": "client_credentials"}
-    assert "access_token" in captured["url"]
-
-def test_fetch_uses_oauth_endpoint_when_token_present():
+def test_fetch_uses_rss_endpoint_and_browser_ua():
     seen = {}
-    def fake_get(url, headers=None, timeout=None):
-        seen.update(url=url, headers=headers)
+    def _get(url, headers=None, timeout=None):
+        seen["url"] = url; seen["ua"] = headers.get("User-Agent", "")
         class R:
             status_code = 200
-            def json(self):
-                return {"data": {"children": [
-                    {"data": {"id": "9", "subreddit": "tifu", "title": "T", "selftext": "body",
-                              "score": 5000, "permalink": "/r/tifu/9", "created_utc": 1.0,
-                              "over_18": False, "stickied": False}}]}}
+            text = SAMPLE
         return R()
-    posts = reddit.fetch(["tifu"], http_get=fake_get, token="tok123")
-    assert posts[0].id == "9"
-    assert seen["url"].startswith("https://oauth.reddit.com/")
-    assert seen["headers"]["Authorization"] == "Bearer tok123"
+    reddit.fetch(["pettyrevenge"], http_get=_get)
+    assert seen["url"] == "https://www.reddit.com/r/pettyrevenge/top/.rss?t=day&limit=25"
+    assert "Mozilla" in seen["ua"]
 
-def test_fetch_uses_public_endpoint_when_no_token():
-    seen = {}
-    def fake_get(url, headers=None, timeout=None):
-        seen["url"] = url
-        class R:
-            status_code = 200
-            def json(self): return {"data": {"children": []}}
-        return R()
-    reddit.fetch(["tifu"], http_get=fake_get)   # no token
-    assert seen["url"].startswith("https://www.reddit.com/") and seen["url"].endswith(".json?t=day&limit=25")
-    assert "www.reddit.com" in seen["url"] and "oauth.reddit.com" not in seen["url"]
+def test_fetch_skips_non_200():
+    posts = reddit.fetch(["pettyrevenge"], http_get=make_get("", status=403))
+    assert posts == []

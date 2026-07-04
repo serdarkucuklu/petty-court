@@ -1,42 +1,52 @@
-import logging
+import logging, re, html, calendar
 import requests
 from src.models import RawPost
 
+# Browser UA: Reddit 403s generic/datacenter UAs on the JSON API but serves the public RSS feed.
+UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+      "(KHTML, like Gecko) Chrome/122.0 Safari/537.36")
 log = logging.getLogger("pettycourt")
 
-UA = "petty-court-bot/1.0 (podcast automation)"
+_TAG = re.compile(r"<[^>]+>")
+_FOOTER = re.compile(r"submitted by.*", re.IGNORECASE | re.DOTALL)
 
-def get_token(client_id, client_secret, http_post=requests.post):
-    """Application-only OAuth (client_credentials) for a Reddit 'script' app.
-    Returns a bearer access-token string."""
-    resp = http_post(
-        "https://www.reddit.com/api/v1/access_token",
-        auth=(client_id, client_secret),
-        data={"grant_type": "client_credentials"},
-        headers={"User-Agent": UA}, timeout=20)
-    resp.raise_for_status()
-    return resp.json()["access_token"]
+def _clean_body(content_html):
+    """Reddit RSS <content> is escaped HTML with a 'submitted by ... [link]' footer. Return plain body text."""
+    text = html.unescape(content_html or "")
+    text = _FOOTER.split(text)[0]     # drop the 'submitted by ...' footer
+    text = _TAG.sub(" ", text)        # strip HTML tags
+    text = html.unescape(text)        # unescape entities revealed after tag removal
+    return re.sub(r"\s+", " ", text).strip()
 
-def fetch(subreddits, limit=25, http_get=requests.get, token=None):
+def _entry_body(e):
+    if e.get("content"):
+        return e["content"][0].get("value", "")
+    return e.get("summary", "")
+
+def fetch(subreddits, limit=25, http_get=requests.get):
     posts = []
     for sub in subreddits:
-        if token:
-            url = f"https://oauth.reddit.com/r/{sub}/top?t=day&limit={limit}"
-            headers = {"User-Agent": UA, "Authorization": f"Bearer {token}"}
-        else:
-            url = f"https://www.reddit.com/r/{sub}/top.json?t=day&limit={limit}"
-            headers = {"User-Agent": UA}
-        resp = http_get(url, headers=headers, timeout=20)
+        url = f"https://www.reddit.com/r/{sub}/top/.rss?t=day&limit={limit}"
+        resp = http_get(url, headers={"User-Agent": UA}, timeout=20)
         status = getattr(resp, "status_code", 200)
         if status != 200:
-            log.warning("Reddit r/%s returned %s (auth/rate/block?) — skipping", sub, status)
+            log.warning("Reddit r/%s RSS returned %s (block/rate?) — skipping", sub, status)
             continue
-        for child in resp.json().get("data", {}).get("children", []):
-            d = child["data"]
-            if d.get("over_18") or d.get("stickied") or not d.get("selftext"):
-                continue
-            posts.append(RawPost(
-                id=d["id"], subreddit=d["subreddit"], title=d["title"],
-                body=d["selftext"], score=d["score"],
-                url="https://www.reddit.com" + d["permalink"], created_utc=d["created_utc"]))
+        posts.extend(_parse_feed(resp.text, sub))
     return posts
+
+def _parse_feed(xml_text, sub):
+    import feedparser
+    out = []
+    for e in feedparser.parse(xml_text).entries:
+        pid = (e.get("id") or "").replace("t3_", "")
+        body = _clean_body(_entry_body(e))
+        if not pid or not body:
+            continue
+        created = 0.0
+        if e.get("published_parsed"):
+            created = float(calendar.timegm(e["published_parsed"]))
+        out.append(RawPost(
+            id=pid, subreddit=sub, title=e.get("title", ""),
+            body=body, score=0, url=e.get("link", ""), created_utc=created))
+    return out

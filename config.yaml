@@ -1,7 +1,7 @@
 subreddits: [AmItheAsshole, pettyrevenge, ProRevenge, MaliciousCompliance, entitledparents, tifu]
-min_score: 2000
+min_score: 0  # RSS has no score; /top is already popularity-ordered
 min_len: 800
-max_len: 6000
+max_len: 9000
 hosts:
   Max: Charon      # S1 prebuilt voice
   Ivy: Kore        # S2 prebuilt voice
