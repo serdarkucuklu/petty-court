@@ -1,5 +1,6 @@
 import json
 from src.models import DialogueScript, DialogueLine
+from src.gemini_retry import call_with_retry
 
 def build_prompt(post, hosts, show):
     names = list(hosts.keys())
@@ -33,9 +34,9 @@ def gemini_generate_fn(api_key):
     from google.genai import types
     client = genai.Client(api_key=api_key)
     def _fn(prompt):
-        resp = client.models.generate_content(
+        resp = call_with_retry(lambda: client.models.generate_content(
             model="gemini-2.5-flash", contents=prompt,
             config=types.GenerateContentConfig(response_mime_type="application/json"),
-        )
+        ))
         return resp.text
     return _fn

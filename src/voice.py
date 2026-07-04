@@ -1,4 +1,5 @@
 import wave
+from src.gemini_retry import call_with_retry
 
 def render_text(script):
     return "\n".join(f"{l.speaker}: {l.text}" for l in script.lines)
@@ -27,12 +28,12 @@ def gemini_tts_fn(api_key, hosts):
         for name, voice_name in hosts.items()
     ]
     def _fn(text):
-        resp = client.models.generate_content(
+        resp = call_with_retry(lambda: client.models.generate_content(
             model="gemini-2.5-flash-preview-tts", contents=text,
             config=types.GenerateContentConfig(
                 response_modalities=["AUDIO"],
                 speech_config=types.SpeechConfig(
                     multi_speaker_voice_config=types.MultiSpeakerVoiceConfig(
-                        speaker_voice_configs=speakers))))
+                        speaker_voice_configs=speakers)))))
         return resp.candidates[0].content.parts[0].inline_data.data
     return _fn
