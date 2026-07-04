@@ -23,21 +23,33 @@ def _entry_body(e):
         return e["content"][0].get("value", "")
     return e.get("summary", "")
 
-def fetch(subreddits, limit=25, http_get=requests.get, delay=3.0, sleep=time.sleep):
+def fetch(subreddits, limit=25, http_get=requests.get, delay=3.0, sleep=time.sleep, enough=10):
     """Fetch top-of-day posts per subreddit from Reddit's keyless RSS feed.
-    A polite `delay` between requests avoids Reddit's burst rate-limit (429 on rapid sequential hits)."""
+
+    Minimizes requests to stay under Reddit's per-IP rate limit: a polite `delay`
+    between subreddits, an early exit once `enough` candidates are gathered (a daily
+    episode needs only one story), and a one-shot back-off retry on 429."""
     posts = []
     for i, sub in enumerate(subreddits):
         if i:
             sleep(delay)
-        url = f"https://www.reddit.com/r/{sub}/top/.rss?t=day&limit={limit}"
-        resp = http_get(url, headers={"User-Agent": UA}, timeout=20)
-        status = getattr(resp, "status_code", 200)
-        if status != 200:
-            log.warning("Reddit r/%s RSS returned %s (block/rate?) — skipping", sub, status)
-            continue
-        posts.extend(_parse_feed(resp.text, sub))
+        posts.extend(_fetch_one(sub, limit, http_get, sleep))
+        if len(posts) >= enough:
+            break
     return posts
+
+def _fetch_one(sub, limit, http_get, sleep, retry_429=True):
+    url = f"https://www.reddit.com/r/{sub}/top/.rss?t=day&limit={limit}"
+    resp = http_get(url, headers={"User-Agent": UA}, timeout=20)
+    status = getattr(resp, "status_code", 200)
+    if status == 429 and retry_429:
+        log.warning("Reddit r/%s RSS 429 (rate-limited) — backing off 20s and retrying once", sub)
+        sleep(20)
+        return _fetch_one(sub, limit, http_get, sleep, retry_429=False)
+    if status != 200:
+        log.warning("Reddit r/%s RSS returned %s (block/rate?) — skipping", sub, status)
+        return []
+    return _parse_feed(resp.text, sub)
 
 def _parse_feed(xml_text, sub):
     import feedparser

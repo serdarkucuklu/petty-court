@@ -60,3 +60,28 @@ def test_fetch_sleeps_between_subreddits_to_avoid_rate_limit():
         return R()
     reddit.fetch(["a", "b", "c"], http_get=_get, sleep=lambda s: n.__setitem__("sleeps", n["sleeps"] + 1))
     assert n["sleeps"] == 2   # gaps BETWEEN 3 requests, none before the first
+
+def test_fetch_early_exits_once_enough_gathered():
+    calls = {"n": 0}
+    def _get(url, headers=None, timeout=None):
+        calls["n"] += 1
+        class R:
+            status_code = 200
+            text = SAMPLE
+        return R()
+    posts = reddit.fetch(["a", "b", "c", "d"], http_get=_get, sleep=lambda s: None, enough=2)
+    assert calls["n"] == 2          # stopped after 2 subs (SAMPLE yields 1 post each)
+    assert len(posts) == 2
+
+def test_fetch_retries_once_on_429_then_succeeds():
+    seq = [429, 200]
+    slept = []
+    def _get(url, headers=None, timeout=None):
+        code = seq.pop(0)
+        class R:
+            status_code = code
+            text = SAMPLE
+        return R()
+    posts = reddit.fetch(["a"], http_get=_get, sleep=lambda s: slept.append(s))
+    assert len(posts) == 1          # succeeded on the retry
+    assert 20 in slept              # backed off 20s before retrying
