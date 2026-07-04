@@ -15,6 +15,8 @@ class State:
         return post_id in self.seen_ids()
 
     def record_episode(self, post_id, title, audio_filename):
+        if post_id in self.seen_ids():
+            return
         self.data["used_ids"].append(post_id)
         self.data["episodes"].append({"id": post_id, "title": title, "audio": audio_filename})
         os.makedirs(os.path.dirname(self.path) or ".", exist_ok=True)
