@@ -9,6 +9,6 @@ show:
   title: "Petty Court — Daily Internet Drama"
   author: "Petty Court"
   description: "Two hosts react to the internet's pettiest revenge and drama, every day."
-  base_url: "https://<user>.github.io/petty-court"   # GitHub Pages URL
+  base_url: "https://serdarkucuklu.github.io/petty-court"   # GitHub Pages URL
   cover: "assets/cover.png"
   language: "en-us"
