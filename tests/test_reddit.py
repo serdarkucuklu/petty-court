@@ -50,3 +50,13 @@ def test_fetch_uses_rss_endpoint_and_browser_ua():
 def test_fetch_skips_non_200():
     posts = reddit.fetch(["pettyrevenge"], http_get=make_get("", status=403))
     assert posts == []
+
+def test_fetch_sleeps_between_subreddits_to_avoid_rate_limit():
+    n = {"sleeps": 0}
+    def _get(url, headers=None, timeout=None):
+        class R:
+            status_code = 200
+            text = SAMPLE
+        return R()
+    reddit.fetch(["a", "b", "c"], http_get=_get, sleep=lambda s: n.__setitem__("sleeps", n["sleeps"] + 1))
+    assert n["sleeps"] == 2   # gaps BETWEEN 3 requests, none before the first

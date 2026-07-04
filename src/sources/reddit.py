@@ -1,4 +1,4 @@
-import logging, re, html, calendar
+import logging, re, html, calendar, time
 import requests
 from src.models import RawPost
 
@@ -23,9 +23,13 @@ def _entry_body(e):
         return e["content"][0].get("value", "")
     return e.get("summary", "")
 
-def fetch(subreddits, limit=25, http_get=requests.get):
+def fetch(subreddits, limit=25, http_get=requests.get, delay=3.0, sleep=time.sleep):
+    """Fetch top-of-day posts per subreddit from Reddit's keyless RSS feed.
+    A polite `delay` between requests avoids Reddit's burst rate-limit (429 on rapid sequential hits)."""
     posts = []
-    for sub in subreddits:
+    for i, sub in enumerate(subreddits):
+        if i:
+            sleep(delay)
         url = f"https://www.reddit.com/r/{sub}/top/.rss?t=day&limit={limit}"
         resp = http_get(url, headers={"User-Agent": UA}, timeout=20)
         status = getattr(resp, "status_code", 200)
