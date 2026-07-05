@@ -12,3 +12,6 @@ show:
   base_url: "https://serdarkucuklu.github.io/petty-court"   # GitHub Pages URL
   cover: "assets/cover.png"
   language: "en-us"
+  email: "serdarkucuklu@gmail.com"   # Apple/Spotify ownership verification email
+  category: "Comedy"                  # Apple Podcasts primary category
+  explicit: "no"                      # yes/no/clean
