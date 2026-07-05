@@ -12,14 +12,23 @@
       <link>https://serdarkucuklu.github.io/petty-court</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Jul 2026 11:08:21 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jul 2026 15:00:07 +0000</lastBuildDate>
     <itunes:author>Petty Court</itunes:author>
+    <itunes:category text="Comedy"/>
+    <itunes:image href="https://serdarkucuklu.github.io/petty-court/cover.png"/>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:owner>
+      <itunes:name>Petty Court</itunes:name>
+      <itunes:email>serdarkucuklu@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:summary>Two hosts react to the internet's pettiest revenge and drama, every day.</itunes:summary>
     <item>
       <title>Dinner Theater of the Absurd: The Phantom Feeder</title>
       <description>Tonight on Petty Court, Max and Ivy dive into a perplexing family dinner dilemma where a daughter's boyfriend orders full meals only to never take a single bite. Is this a deeply rooted phobia, a misinterpreted cultural custom, or just an expensive performance art piece? Source: r/AmItheAsshole.</description>
       <guid isPermaLink="false">1unu8zq</guid>
       <enclosure url="https://serdarkucuklu.github.io/petty-court/1unu8zq.mp3" length="6005037" type="audio/mpeg"/>
       <pubDate>Sun, 05 Jul 2026 11:08:21 +0000</pubDate>
+      <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
       <title>Boomer Work, Boomer Problems: Grandpa's Farm vs. The Exposure Expedition</title>
@@ -27,6 +36,7 @@
       <guid isPermaLink="false">1uni5q2</guid>
       <enclosure url="https://serdarkucuklu.github.io/petty-court/1uni5q2.mp3" length="5846445" type="audio/mpeg"/>
       <pubDate>Sat, 04 Jul 2026 22:15:12 +0000</pubDate>
+      <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>
 </rss>
