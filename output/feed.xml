@@ -12,7 +12,7 @@
       <link>https://serdarkucuklu.github.io/petty-court</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Jul 2026 15:00:07 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 12:50:29 +0000</lastBuildDate>
     <itunes:author>Petty Court</itunes:author>
     <itunes:category text="Comedy"/>
     <itunes:image href="https://serdarkucuklu.github.io/petty-court/cover.png"/>
@@ -22,6 +22,14 @@
       <itunes:email>serdarkucuklu@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:summary>Two hosts react to the internet's pettiest revenge and drama, every day.</itunes:summary>
+    <item>
+      <title>The Exploding Friend Group: From Fake Bae to Real Boundaries</title>
+      <description>Max and Ivy unpack the dramatic fallout of a long-distance boyfriend lie that ripped a toxic friend group apart, only for the original liar to find healthier connections. Sourced from r/AmItheAsshole.</description>
+      <guid isPermaLink="false">1uodefc</guid>
+      <enclosure url="https://serdarkucuklu.github.io/petty-court/1uodefc.mp3" length="5658669" type="audio/mpeg"/>
+      <pubDate>Mon, 06 Jul 2026 12:50:29 +0000</pubDate>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>Dinner Theater of the Absurd: The Phantom Feeder</title>
       <description>Tonight on Petty Court, Max and Ivy dive into a perplexing family dinner dilemma where a daughter's boyfriend orders full meals only to never take a single bite. Is this a deeply rooted phobia, a misinterpreted cultural custom, or just an expensive performance art piece? Source: r/AmItheAsshole.</description>
