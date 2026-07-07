@@ -2,7 +2,8 @@
   "used_ids": [
     "1uni5q2",
     "1unu8zq",
-    "1uodefc"
+    "1uodefc",
+    "1upmfe2"
   ],
   "episodes": [
     {
@@ -28,6 +29,14 @@
       "description": "Max and Ivy unpack the dramatic fallout of a long-distance boyfriend lie that ripped a toxic friend group apart, only for the original liar to find healthier connections. Sourced from r/AmItheAsshole.",
       "length_bytes": 5658669,
       "pub_date": "2026-07-06T12:50:29.846483+00:00"
+    },
+    {
+      "id": "1upmfe2",
+      "title": "MIL's Matchmaking Mayhem: Fourth of July Fireworks",
+      "audio": "1upmfe2.mp3",
+      "description": "On today's Petty Court, Max and Ivy dive into a fiery Fourth of July fiesta where a mother-in-law's unwelcome guest list and a husband's silence ignite a marital meltdown. We're breaking down the drama from Reddit's r/AmItheAsshole.",
+      "length_bytes": 6475437,
+      "pub_date": "2026-07-07T11:55:05.569218+00:00"
     }
   ]
 }
