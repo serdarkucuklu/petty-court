@@ -12,7 +12,7 @@
       <link>https://serdarkucuklu.github.io/petty-court</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Jul 2026 11:55:05 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 11:08:08 +0000</lastBuildDate>
     <itunes:author>Petty Court</itunes:author>
     <itunes:category text="Comedy"/>
     <itunes:image href="https://serdarkucuklu.github.io/petty-court/cover.png"/>
@@ -22,6 +22,14 @@
       <itunes:email>serdarkucuklu@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:summary>Two hosts react to the internet's pettiest revenge and drama, every day.</itunes:summary>
+    <item>
+      <title>The $350 Boyfriend</title>
+      <description>This week on Petty Court, Max and Ivy dive into a family drama where a stepdad wants to charge his stepdaughter's boyfriend rent for staying over too often. We unpack the complicated dynamics of adult kids living at home and who gets to set the rules for the basement apartment. (Source: r/AmItheAsshole)</description>
+      <guid isPermaLink="false">1upzn92</guid>
+      <enclosure url="https://serdarkucuklu.github.io/petty-court/1upzn92.mp3" length="6292269" type="audio/mpeg"/>
+      <pubDate>Wed, 08 Jul 2026 11:08:08 +0000</pubDate>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>MIL's Matchmaking Mayhem: Fourth of July Fireworks</title>
       <description>On today's Petty Court, Max and Ivy dive into a fiery Fourth of July fiesta where a mother-in-law's unwelcome guest list and a husband's silence ignite a marital meltdown. We're breaking down the drama from Reddit's r/AmItheAsshole.</description>
