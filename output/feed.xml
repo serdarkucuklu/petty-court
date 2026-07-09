@@ -12,7 +12,7 @@
       <link>https://serdarkucuklu.github.io/petty-court</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Jul 2026 11:08:08 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 12:03:05 +0000</lastBuildDate>
     <itunes:author>Petty Court</itunes:author>
     <itunes:category text="Comedy"/>
     <itunes:image href="https://serdarkucuklu.github.io/petty-court/cover.png"/>
@@ -22,6 +22,14 @@
       <itunes:email>serdarkucuklu@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:summary>Two hosts react to the internet's pettiest revenge and drama, every day.</itunes:summary>
+    <item>
+      <title>Room Service Not Included: Sibling Squatters</title>
+      <description>This week, Max and Ivy unpack a sibling drama from r/AmItheAsshole where a generous sister's apartment became a full-service love hotel for her brother, complete with stolen skincare and mystery stains. Tune in to see if setting boundaries makes you an A-hole or a hero.</description>
+      <guid isPermaLink="false">1uqsaw7</guid>
+      <enclosure url="https://serdarkucuklu.github.io/petty-court/1uqsaw7.mp3" length="6751149" type="audio/mpeg"/>
+      <pubDate>Thu, 09 Jul 2026 12:03:05 +0000</pubDate>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>The $350 Boyfriend</title>
       <description>This week on Petty Court, Max and Ivy dive into a family drama where a stepdad wants to charge his stepdaughter's boyfriend rent for staying over too often. We unpack the complicated dynamics of adult kids living at home and who gets to set the rules for the basement apartment. (Source: r/AmItheAsshole)</description>
