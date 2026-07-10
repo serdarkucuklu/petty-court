@@ -12,7 +12,7 @@
       <link>https://serdarkucuklu.github.io/petty-court</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Jul 2026 12:03:05 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 11:56:08 +0000</lastBuildDate>
     <itunes:author>Petty Court</itunes:author>
     <itunes:category text="Comedy"/>
     <itunes:image href="https://serdarkucuklu.github.io/petty-court/cover.png"/>
@@ -22,6 +22,14 @@
       <itunes:email>serdarkucuklu@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:summary>Two hosts react to the internet's pettiest revenge and drama, every day.</itunes:summary>
+    <item>
+      <title>Birthday Brawl: The Great Tradition Take-Down!</title>
+      <description>Max and Ivy tackle a Reddit story about a daughter's family 'tradition' that was actually just a lot of unpaid labor. Find out if she's the a-hole for refusing to host her mom's birthday in this chaotic family drama from r/AmItheAsshole.</description>
+      <guid isPermaLink="false">1urs0vp</guid>
+      <enclosure url="https://serdarkucuklu.github.io/petty-court/1urs0vp.mp3" length="5282349" type="audio/mpeg"/>
+      <pubDate>Fri, 10 Jul 2026 11:56:08 +0000</pubDate>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>Room Service Not Included: Sibling Squatters</title>
       <description>This week, Max and Ivy unpack a sibling drama from r/AmItheAsshole where a generous sister's apartment became a full-service love hotel for her brother, complete with stolen skincare and mystery stains. Tune in to see if setting boundaries makes you an A-hole or a hero.</description>
