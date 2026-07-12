@@ -12,7 +12,7 @@
       <link>https://serdarkucuklu.github.io/petty-court</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Sat, 11 Jul 2026 10:18:49 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jul 2026 10:31:37 +0000</lastBuildDate>
     <itunes:author>Petty Court</itunes:author>
     <itunes:category text="Comedy"/>
     <itunes:image href="https://serdarkucuklu.github.io/petty-court/cover.png"/>
@@ -22,6 +22,14 @@
       <itunes:email>serdarkucuklu@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:summary>Two hosts react to the internet's pettiest revenge and drama, every day.</itunes:summary>
+    <item>
+      <title>Surf 'n' Turf, Surprise Guests, and a Frosty Reception</title>
+      <description>This week on Petty Court, Max and Ivy dissect a Reddit story about a lavish dinner party derailed by an uninvited plus-one and a very controversial frozen meal offer. Get ready to debate proper dinner party etiquette from r/AmItheAsshole!</description>
+      <guid isPermaLink="false">1utsmdu</guid>
+      <enclosure url="https://serdarkucuklu.github.io/petty-court/1utsmdu.mp3" length="6042669" type="audio/mpeg"/>
+      <pubDate>Sun, 12 Jul 2026 10:31:37 +0000</pubDate>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>When the Bride Has Zero Friends: A Bridesmaid Meltdown</title>
       <description>Max and Ivy dissect the internet drama of a bride so universally disliked, she resorted to asking her fiancé's sister's best friend to be a bridesmaid. Hilarity (and drama) ensues on today's episode of Petty Court, inspired by a wild story from r/AmItheAsshole.</description>
