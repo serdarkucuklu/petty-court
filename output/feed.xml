@@ -12,7 +12,7 @@
       <link>https://serdarkucuklu.github.io/petty-court</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Jul 2026 10:31:37 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 12:10:31 +0000</lastBuildDate>
     <itunes:author>Petty Court</itunes:author>
     <itunes:category text="Comedy"/>
     <itunes:image href="https://serdarkucuklu.github.io/petty-court/cover.png"/>
@@ -22,6 +22,14 @@
       <itunes:email>serdarkucuklu@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:summary>Two hosts react to the internet's pettiest revenge and drama, every day.</itunes:summary>
+    <item>
+      <title>Fired From Fries: The Drive-Thru Demotion</title>
+      <description>This week on Petty Court, Max and Ivy unpack the ultimate relationship performance review: a fast-food demotion. Witness the dramatic tale of a husband who 'fired' his wife from her most crucial domestic duty, sourced from the wild west of r/AmItheAsshole.</description>
+      <guid isPermaLink="false">1uume8o</guid>
+      <enclosure url="https://serdarkucuklu.github.io/petty-court/1uume8o.mp3" length="5615277" type="audio/mpeg"/>
+      <pubDate>Mon, 13 Jul 2026 12:10:31 +0000</pubDate>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>Surf 'n' Turf, Surprise Guests, and a Frosty Reception</title>
       <description>This week on Petty Court, Max and Ivy dissect a Reddit story about a lavish dinner party derailed by an uninvited plus-one and a very controversial frozen meal offer. Get ready to debate proper dinner party etiquette from r/AmItheAsshole!</description>

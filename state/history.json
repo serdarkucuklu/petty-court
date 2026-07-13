@@ -8,7 +8,8 @@
     "1uqsaw7",
     "1urs0vp",
     "1usomkp",
-    "1utsmdu"
+    "1utsmdu",
+    "1uume8o"
   ],
   "episodes": [
     {
@@ -82,6 +83,14 @@
       "description": "This week on Petty Court, Max and Ivy dissect a Reddit story about a lavish dinner party derailed by an uninvited plus-one and a very controversial frozen meal offer. Get ready to debate proper dinner party etiquette from r/AmItheAsshole!",
       "length_bytes": 6042669,
       "pub_date": "2026-07-12T10:31:37.443593+00:00"
+    },
+    {
+      "id": "1uume8o",
+      "title": "Fired From Fries: The Drive-Thru Demotion",
+      "audio": "1uume8o.mp3",
+      "description": "This week on Petty Court, Max and Ivy unpack the ultimate relationship performance review: a fast-food demotion. Witness the dramatic tale of a husband who 'fired' his wife from her most crucial domestic duty, sourced from the wild west of r/AmItheAsshole.",
+      "length_bytes": 5615277,
+      "pub_date": "2026-07-13T12:10:31.912111+00:00"
     }
   ]
 }
