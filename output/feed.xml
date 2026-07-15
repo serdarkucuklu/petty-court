@@ -12,7 +12,7 @@
       <link>https://serdarkucuklu.github.io/petty-court</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Jul 2026 10:51:09 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 10:54:35 +0000</lastBuildDate>
     <itunes:author>Petty Court</itunes:author>
     <itunes:category text="Comedy"/>
     <itunes:image href="https://serdarkucuklu.github.io/petty-court/cover.png"/>
@@ -22,6 +22,14 @@
       <itunes:email>serdarkucuklu@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:summary>Two hosts react to the internet's pettiest revenge and drama, every day.</itunes:summary>
+    <item>
+      <title>Pappygate: The Bourbon Heist (or Not!)</title>
+      <description>Max and Ivy dive into a spirited family feud over a coveted bottle of bourbon acquired under contentious circumstances. Was it a selfless act of familial loyalty or a cunning grab for the ultimate collector's prize? Source: r/AmItheAsshole.</description>
+      <guid isPermaLink="false">1uwqvc9</guid>
+      <enclosure url="https://serdarkucuklu.github.io/petty-court/1uwqvc9.mp3" length="5743917" type="audio/mpeg"/>
+      <pubDate>Wed, 15 Jul 2026 10:54:35 +0000</pubDate>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>The 17-Year Ghosting, Stalker Stepdaughter, and the Police Welfare Check Merry-Go-Round</title>
       <description>Max and Ivy tackle a truly wild AITA story about a stepdaughter who ghosted her family for 17 years, only to return with a vengeance, sending the police to her dad's house on a loop. This week's episode comes courtesy of r/AmItheAsshole.</description>

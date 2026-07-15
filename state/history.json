@@ -10,7 +10,8 @@
     "1usomkp",
     "1utsmdu",
     "1uume8o",
-    "1uviexk"
+    "1uviexk",
+    "1uwqvc9"
   ],
   "episodes": [
     {
@@ -100,6 +101,14 @@
       "description": "Max and Ivy tackle a truly wild AITA story about a stepdaughter who ghosted her family for 17 years, only to return with a vengeance, sending the police to her dad's house on a loop. This week's episode comes courtesy of r/AmItheAsshole.",
       "length_bytes": 6543789,
       "pub_date": "2026-07-14T10:51:09.479145+00:00"
+    },
+    {
+      "id": "1uwqvc9",
+      "title": "Pappygate: The Bourbon Heist (or Not!)",
+      "audio": "1uwqvc9.mp3",
+      "description": "Max and Ivy dive into a spirited family feud over a coveted bottle of bourbon acquired under contentious circumstances. Was it a selfless act of familial loyalty or a cunning grab for the ultimate collector's prize? Source: r/AmItheAsshole.",
+      "length_bytes": 5743917,
+      "pub_date": "2026-07-15T10:54:35.163657+00:00"
     }
   ]
 }
