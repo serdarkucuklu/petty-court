@@ -12,7 +12,7 @@
       <link>https://serdarkucuklu.github.io/petty-court</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Jul 2026 10:31:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 11:49:52 +0000</lastBuildDate>
     <itunes:author>Petty Court</itunes:author>
     <itunes:category text="Comedy"/>
     <itunes:image href="https://serdarkucuklu.github.io/petty-court/cover.png"/>
@@ -22,6 +22,14 @@
       <itunes:email>serdarkucuklu@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:summary>Two hosts react to the internet's pettiest revenge and drama, every day.</itunes:summary>
+    <item>
+      <title>Brick by Brick, a Birthday Battle Royale</title>
+      <description>This week on Petty Court, we dissect a twin's birthday gift-giving saga that left a girlfriend feeling 'shown up' and demanding a 'gift warning'. Sourced from the drama vaults of r/AmItheAsshole.</description>
+      <guid isPermaLink="false">1v0p9i1</guid>
+      <enclosure url="https://serdarkucuklu.github.io/petty-court/1v0p9i1.mp3" length="5720877" type="audio/mpeg"/>
+      <pubDate>Mon, 20 Jul 2026 11:49:52 +0000</pubDate>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>The Salesman's Saga vs. The Little Free Library</title>
       <description>This week on Petty Court, Max and Ivy dive into a literary turf war over a community's beloved Little Free Library. Get ready for accusations of theft, gatekeeping, and a beige-covered memoir that just wouldn't quit, courtesy of r/AmItheAsshole.</description>

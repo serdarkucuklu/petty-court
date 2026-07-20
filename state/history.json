@@ -13,7 +13,8 @@
     "1uviexk",
     "1uwqvc9",
     "1uzl3pg",
-    "1uzwrt4"
+    "1uzwrt4",
+    "1v0p9i1"
   ],
   "episodes": [
     {
@@ -127,6 +128,14 @@
       "description": "This week on Petty Court, Max and Ivy dive into a literary turf war over a community's beloved Little Free Library. Get ready for accusations of theft, gatekeeping, and a beige-covered memoir that just wouldn't quit, courtesy of r/AmItheAsshole.",
       "length_bytes": 5399469,
       "pub_date": "2026-07-19T10:31:47.035273+00:00"
+    },
+    {
+      "id": "1v0p9i1",
+      "title": "Brick by Brick, a Birthday Battle Royale",
+      "audio": "1v0p9i1.mp3",
+      "description": "This week on Petty Court, we dissect a twin's birthday gift-giving saga that left a girlfriend feeling 'shown up' and demanding a 'gift warning'. Sourced from the drama vaults of r/AmItheAsshole.",
+      "length_bytes": 5720877,
+      "pub_date": "2026-07-20T11:49:52.137351+00:00"
     }
   ]
 }
