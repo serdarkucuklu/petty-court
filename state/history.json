@@ -14,7 +14,8 @@
     "1uwqvc9",
     "1uzl3pg",
     "1uzwrt4",
-    "1v0p9i1"
+    "1v0p9i1",
+    "1v1juic"
   ],
   "episodes": [
     {
@@ -136,6 +137,14 @@
       "description": "This week on Petty Court, we dissect a twin's birthday gift-giving saga that left a girlfriend feeling 'shown up' and demanding a 'gift warning'. Sourced from the drama vaults of r/AmItheAsshole.",
       "length_bytes": 5720877,
       "pub_date": "2026-07-20T11:49:52.137351+00:00"
+    },
+    {
+      "id": "1v1juic",
+      "title": "Microplastic Meltdown: The Catering Catastrophe!",
+      "audio": "1v1juic.mp3",
+      "description": "Max and Ivy dive into a culinary catastrophe where a 'simple' dinner request from friends turns into a microplastic-fueled nightmare. Find out if our Reddit user was the jerk for drawing the line in the spice rack from r/AmItheAsshole!",
+      "length_bytes": 6149037,
+      "pub_date": "2026-07-21T11:13:11.867002+00:00"
     }
   ]
 }
