@@ -12,7 +12,7 @@
       <link>https://serdarkucuklu.github.io/petty-court</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Jul 2026 11:13:11 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 11:13:24 +0000</lastBuildDate>
     <itunes:author>Petty Court</itunes:author>
     <itunes:category text="Comedy"/>
     <itunes:image href="https://serdarkucuklu.github.io/petty-court/cover.png"/>
@@ -22,6 +22,14 @@
       <itunes:email>serdarkucuklu@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:summary>Two hosts react to the internet's pettiest revenge and drama, every day.</itunes:summary>
+    <item>
+      <title>Party Foul: The Six-Pack Slam-Dunk</title>
+      <description>Max and Ivy dissect a Reddit tale of a World Cup watch party gone terribly wrong when an innocent assumption meets a very serious house rule. Was our guest the asshole for bringing booze, or was the host to blame for a serious communication breakdown? Story credit to r/AmItheAsshole.</description>
+      <guid isPermaLink="false">1v2tbda</guid>
+      <enclosure url="https://serdarkucuklu.github.io/petty-court/1v2tbda.mp3" length="6173997" type="audio/mpeg"/>
+      <pubDate>Wed, 22 Jul 2026 11:13:24 +0000</pubDate>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>Microplastic Meltdown: The Catering Catastrophe!</title>
       <description>Max and Ivy dive into a culinary catastrophe where a 'simple' dinner request from friends turns into a microplastic-fueled nightmare. Find out if our Reddit user was the jerk for drawing the line in the spice rack from r/AmItheAsshole!</description>

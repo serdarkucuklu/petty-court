@@ -15,7 +15,8 @@
     "1uzl3pg",
     "1uzwrt4",
     "1v0p9i1",
-    "1v1juic"
+    "1v1juic",
+    "1v2tbda"
   ],
   "episodes": [
     {
@@ -145,6 +146,14 @@
       "description": "Max and Ivy dive into a culinary catastrophe where a 'simple' dinner request from friends turns into a microplastic-fueled nightmare. Find out if our Reddit user was the jerk for drawing the line in the spice rack from r/AmItheAsshole!",
       "length_bytes": 6149037,
       "pub_date": "2026-07-21T11:13:11.867002+00:00"
+    },
+    {
+      "id": "1v2tbda",
+      "title": "Party Foul: The Six-Pack Slam-Dunk",
+      "audio": "1v2tbda.mp3",
+      "description": "Max and Ivy dissect a Reddit tale of a World Cup watch party gone terribly wrong when an innocent assumption meets a very serious house rule. Was our guest the asshole for bringing booze, or was the host to blame for a serious communication breakdown? Story credit to r/AmItheAsshole.",
+      "length_bytes": 6173997,
+      "pub_date": "2026-07-22T11:13:24.875136+00:00"
     }
   ]
 }
