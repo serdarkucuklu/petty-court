@@ -16,7 +16,8 @@
     "1uzwrt4",
     "1v0p9i1",
     "1v1juic",
-    "1v2tbda"
+    "1v2tbda",
+    "1v41w7d"
   ],
   "episodes": [
     {
@@ -154,6 +155,14 @@
       "description": "Max and Ivy dissect a Reddit tale of a World Cup watch party gone terribly wrong when an innocent assumption meets a very serious house rule. Was our guest the asshole for bringing booze, or was the host to blame for a serious communication breakdown? Story credit to r/AmItheAsshole.",
       "length_bytes": 6173997,
       "pub_date": "2026-07-22T11:13:24.875136+00:00"
+    },
+    {
+      "id": "1v41w7d",
+      "title": "Welcome Home... to Your In-Laws' Vacation!",
+      "audio": "1v41w7d.mp3",
+      "description": "Imagine finally buying your dream home, only for your fiancé's parents to declare it their summer vacation spot before you even move in! Max and Ivy tackle a truly wild tale of boundary-pushing in-laws from r/AmItheAsshole.",
+      "length_bytes": 6118317,
+      "pub_date": "2026-07-23T11:13:56.420874+00:00"
     }
   ]
 }

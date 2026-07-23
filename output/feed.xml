@@ -12,7 +12,7 @@
       <link>https://serdarkucuklu.github.io/petty-court</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Jul 2026 11:13:24 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 11:13:56 +0000</lastBuildDate>
     <itunes:author>Petty Court</itunes:author>
     <itunes:category text="Comedy"/>
     <itunes:image href="https://serdarkucuklu.github.io/petty-court/cover.png"/>
@@ -22,6 +22,14 @@
       <itunes:email>serdarkucuklu@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:summary>Two hosts react to the internet's pettiest revenge and drama, every day.</itunes:summary>
+    <item>
+      <title>Welcome Home... to Your In-Laws' Vacation!</title>
+      <description>Imagine finally buying your dream home, only for your fiancé's parents to declare it their summer vacation spot before you even move in! Max and Ivy tackle a truly wild tale of boundary-pushing in-laws from r/AmItheAsshole.</description>
+      <guid isPermaLink="false">1v41w7d</guid>
+      <enclosure url="https://serdarkucuklu.github.io/petty-court/1v41w7d.mp3" length="6118317" type="audio/mpeg"/>
+      <pubDate>Thu, 23 Jul 2026 11:13:56 +0000</pubDate>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>Party Foul: The Six-Pack Slam-Dunk</title>
       <description>Max and Ivy dissect a Reddit tale of a World Cup watch party gone terribly wrong when an innocent assumption meets a very serious house rule. Was our guest the asshole for bringing booze, or was the host to blame for a serious communication breakdown? Story credit to r/AmItheAsshole.</description>
