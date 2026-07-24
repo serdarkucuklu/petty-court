@@ -12,7 +12,7 @@
       <link>https://serdarkucuklu.github.io/petty-court</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jul 2026 11:13:56 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 11:07:59 +0000</lastBuildDate>
     <itunes:author>Petty Court</itunes:author>
     <itunes:category text="Comedy"/>
     <itunes:image href="https://serdarkucuklu.github.io/petty-court/cover.png"/>
@@ -22,6 +22,14 @@
       <itunes:email>serdarkucuklu@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:summary>Two hosts react to the internet's pettiest revenge and drama, every day.</itunes:summary>
+    <item>
+      <title>Chuck E. Cheese Catastrophe: The Silent Treatment Strikes Back!</title>
+      <description>On today's Petty Court, Max and Ivy dissect a Mother's Day meltdown involving an 18-month-old, a lonely grandma, and an adult brother who's a professional plan-ruiner. Was inviting Mom to Chuck E. Cheese worth four months of silent treatment? Source: r/AmItheAsshole.</description>
+      <guid isPermaLink="false">1v4wput</guid>
+      <enclosure url="https://serdarkucuklu.github.io/petty-court/1v4wput.mp3" length="6680109" type="audio/mpeg"/>
+      <pubDate>Fri, 24 Jul 2026 11:07:59 +0000</pubDate>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>Welcome Home... to Your In-Laws' Vacation!</title>
       <description>Imagine finally buying your dream home, only for your fiancé's parents to declare it their summer vacation spot before you even move in! Max and Ivy tackle a truly wild tale of boundary-pushing in-laws from r/AmItheAsshole.</description>
