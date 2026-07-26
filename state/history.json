@@ -19,7 +19,8 @@
     "1v2tbda",
     "1v41w7d",
     "1v4wput",
-    "1v59oe1"
+    "1v59oe1",
+    "1v6herg"
   ],
   "episodes": [
     {
@@ -181,6 +182,14 @@
       "description": "Max and Ivy dive into an r/AmItheAsshole story about an ex who wants her grandma's furniture back, five years after the breakup and with a side of audacious demands. Find out if our hosts think the original poster is the bad guy for refusing to help move a very specific piece of furniture.",
       "length_bytes": 5747757,
       "pub_date": "2026-07-25T10:31:14.380377+00:00"
+    },
+    {
+      "id": "1v6herg",
+      "title": "Bunk Bed Brawl: The Friend Trip Fiasco",
+      "audio": "1v6herg.mp3",
+      "description": "This week on Petty Court, Max and Ivy dive into a vacation saga where a long drive, a late arrival, and a set of bunk beds led to a surprisingly petty financial dispute. Is our Redditor the jerk for refusing to split lodging expenses equally? (Story adapted from r/AmItheAsshole)",
+      "length_bytes": 5998509,
+      "pub_date": "2026-07-26T10:48:30.913325+00:00"
     }
   ]
 }
