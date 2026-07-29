@@ -22,7 +22,8 @@
     "1v59oe1",
     "1v6herg",
     "1v7x1wr",
-    "1v8f20q"
+    "1v8f20q",
+    "1v91lo6"
   ],
   "episodes": [
     {
@@ -208,6 +209,14 @@
       "description": "This week, Max and Ivy dive into an r/AmItheAsshole tale of a 16-year-old girl caught in a bedroom sharing nightmare with her four brothers, a messy oldest sibling, and an uncle who just might be her only hope. Source: r/AmItheAsshole.",
       "length_bytes": 5832237,
       "pub_date": "2026-07-28T11:20:28.029547+00:00"
+    },
+    {
+      "id": "1v91lo6",
+      "title": "The Mic Drop Heard 'Round the Wedding",
+      "audio": "1v91lo6.mp3",
+      "description": "Today on Petty Court, Max and Ivy unpack a wedding day drama where a bride had to fend off her sister's attempted baby announcement. Get ready for major second-hand cringe as we dive into this r/AmItheAsshole saga!",
+      "length_bytes": 6340269,
+      "pub_date": "2026-07-29T11:30:19.332870+00:00"
     }
   ]
 }
