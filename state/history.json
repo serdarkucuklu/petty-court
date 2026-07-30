@@ -23,7 +23,8 @@
     "1v6herg",
     "1v7x1wr",
     "1v8f20q",
-    "1v91lo6"
+    "1v91lo6",
+    "1va44g5"
   ],
   "episodes": [
     {
@@ -217,6 +218,14 @@
       "description": "Today on Petty Court, Max and Ivy unpack a wedding day drama where a bride had to fend off her sister's attempted baby announcement. Get ready for major second-hand cringe as we dive into this r/AmItheAsshole saga!",
       "length_bytes": 6340269,
       "pub_date": "2026-07-29T11:30:19.332870+00:00"
+    },
+    {
+      "id": "1va44g5",
+      "title": "Fairy Money: A Ghastly Inheritance",
+      "audio": "1va44g5.mp3",
+      "description": "This week on Petty Court, Max and Ivy dive into a tale of a 'harsh Slavic grandma,' 'petrifying fairies,' and a truly ghoulish family inheritance dispute. Prepare for drama from r/AmItheAsshole that's both spooky and utterly ridiculous.",
+      "length_bytes": 6318765,
+      "pub_date": "2026-07-30T11:12:32.266520+00:00"
     }
   ]
 }
