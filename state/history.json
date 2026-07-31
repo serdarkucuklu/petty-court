@@ -24,7 +24,8 @@
     "1v7x1wr",
     "1v8f20q",
     "1v91lo6",
-    "1va44g5"
+    "1va44g5",
+    "1vbi3mn"
   ],
   "episodes": [
     {
@@ -226,6 +227,14 @@
       "description": "This week on Petty Court, Max and Ivy dive into a tale of a 'harsh Slavic grandma,' 'petrifying fairies,' and a truly ghoulish family inheritance dispute. Prepare for drama from r/AmItheAsshole that's both spooky and utterly ridiculous.",
       "length_bytes": 6318765,
       "pub_date": "2026-07-30T11:12:32.266520+00:00"
+    },
+    {
+      "id": "1vbi3mn",
+      "title": "Stroller Shock: When Italian Museums Meet Scandinavian Babies",
+      "audio": "1vbi3mn.mp3",
+      "description": "Max and Ivy uncover a wild tale of culture clash and questionable parenting in an Italian museum. Is leaving your toddler alone in a stroller just a 'cultural difference' or a 'call the police' situation? Find out who's in the petty court hot seat this time. (Source: r/AmItheAsshole)",
+      "length_bytes": 5300397,
+      "pub_date": "2026-07-31T11:33:45.937488+00:00"
     }
   ]
 }
