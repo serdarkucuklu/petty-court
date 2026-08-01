@@ -25,7 +25,8 @@
     "1v8f20q",
     "1v91lo6",
     "1va44g5",
-    "1vbi3mn"
+    "1vbi3mn",
+    "1vc27fy"
   ],
   "episodes": [
     {
@@ -235,6 +236,14 @@
       "description": "Max and Ivy uncover a wild tale of culture clash and questionable parenting in an Italian museum. Is leaving your toddler alone in a stroller just a 'cultural difference' or a 'call the police' situation? Find out who's in the petty court hot seat this time. (Source: r/AmItheAsshole)",
       "length_bytes": 5300397,
       "pub_date": "2026-07-31T11:33:45.937488+00:00"
+    },
+    {
+      "id": "1vc27fy",
+      "title": "Left Behind in Limassol: The Chronically Late Friend Edition",
+      "audio": "1vc27fy.mp3",
+      "description": "This week on Petty Court, Max and Ivy dissect a Reddit tale of a holiday gone awry when one friend's chronic lateness pushes his travel companions to their breaking point. Based on a story from r/AmItheAsshole.",
+      "length_bytes": 5665965,
+      "pub_date": "2026-08-01T10:43:53.341772+00:00"
     }
   ]
 }

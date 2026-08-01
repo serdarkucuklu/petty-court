@@ -12,7 +12,7 @@
       <link>https://serdarkucuklu.github.io/petty-court</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Jul 2026 11:33:45 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 10:43:53 +0000</lastBuildDate>
     <itunes:author>Petty Court</itunes:author>
     <itunes:category text="Comedy"/>
     <itunes:image href="https://serdarkucuklu.github.io/petty-court/cover.png"/>
@@ -22,6 +22,14 @@
       <itunes:email>serdarkucuklu@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:summary>Two hosts react to the internet's pettiest revenge and drama, every day.</itunes:summary>
+    <item>
+      <title>Left Behind in Limassol: The Chronically Late Friend Edition</title>
+      <description>This week on Petty Court, Max and Ivy dissect a Reddit tale of a holiday gone awry when one friend's chronic lateness pushes his travel companions to their breaking point. Based on a story from r/AmItheAsshole.</description>
+      <guid isPermaLink="false">1vc27fy</guid>
+      <enclosure url="https://serdarkucuklu.github.io/petty-court/1vc27fy.mp3" length="5665965" type="audio/mpeg"/>
+      <pubDate>Sat, 01 Aug 2026 10:43:53 +0000</pubDate>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>Stroller Shock: When Italian Museums Meet Scandinavian Babies</title>
       <description>Max and Ivy uncover a wild tale of culture clash and questionable parenting in an Italian museum. Is leaving your toddler alone in a stroller just a 'cultural difference' or a 'call the police' situation? Find out who's in the petty court hot seat this time. (Source: r/AmItheAsshole)</description>
