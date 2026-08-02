@@ -12,7 +12,7 @@
       <link>https://serdarkucuklu.github.io/petty-court</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Aug 2026 10:43:53 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2026 10:45:35 +0000</lastBuildDate>
     <itunes:author>Petty Court</itunes:author>
     <itunes:category text="Comedy"/>
     <itunes:image href="https://serdarkucuklu.github.io/petty-court/cover.png"/>
@@ -22,6 +22,14 @@
       <itunes:email>serdarkucuklu@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:summary>Two hosts react to the internet's pettiest revenge and drama, every day.</itunes:summary>
+    <item>
+      <title>KGB Confession: My Secret Russian Was a 'Bitch, Put Your Money Where Your Mouth Is' Moment</title>
+      <description>Today on Petty Court, Max and Ivy unpack the silent treatment of a different kind: a man who kept his Russian language skills under wraps from his girlfriend's parents for three years. Was he wrong to keep this talent a secret, or were they overreacting to his sudden, very specific, linguistic reveal? We dive into this cultural clash from r/AmItheAsshole.</description>
+      <guid isPermaLink="false">1vd1264</guid>
+      <enclosure url="https://serdarkucuklu.github.io/petty-court/1vd1264.mp3" length="6693549" type="audio/mpeg"/>
+      <pubDate>Sun, 02 Aug 2026 10:45:35 +0000</pubDate>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>Left Behind in Limassol: The Chronically Late Friend Edition</title>
       <description>This week on Petty Court, Max and Ivy dissect a Reddit tale of a holiday gone awry when one friend's chronic lateness pushes his travel companions to their breaking point. Based on a story from r/AmItheAsshole.</description>
