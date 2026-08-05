@@ -12,7 +12,7 @@
       <link>https://serdarkucuklu.github.io/petty-court</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Aug 2026 11:27:17 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 11:26:24 +0000</lastBuildDate>
     <itunes:author>Petty Court</itunes:author>
     <itunes:category text="Comedy"/>
     <itunes:image href="https://serdarkucuklu.github.io/petty-court/cover.png"/>
@@ -22,6 +22,14 @@
       <itunes:email>serdarkucuklu@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:summary>Two hosts react to the internet's pettiest revenge and drama, every day.</itunes:summary>
+    <item>
+      <title>Don't Leave Tony Alone (Or Else!)</title>
+      <description>Max and Ivy delve into an r/AmItheAsshole tale where a coworker's deep-seated fear of ghosts meets an unexpected family emergency. Who's the ghoul in this office haunting? (Source: r/AmItheAsshole)</description>
+      <guid isPermaLink="false">1vfqcpe</guid>
+      <enclosure url="https://serdarkucuklu.github.io/petty-court/1vfqcpe.mp3" length="6681645" type="audio/mpeg"/>
+      <pubDate>Wed, 05 Aug 2026 11:26:24 +0000</pubDate>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>Bathroom Break Betrayal: When Your Secret is the Punchline</title>
       <description>Today on Petty Court, Max and Ivy dissect a friendship gone sideways when a comedian uses a deeply embarrassing personal story for a laugh. Did our OP have every right to walk out, or did they ruin a friend's big moment? (Source: r/AmItheAsshole)</description>

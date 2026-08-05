@@ -29,7 +29,8 @@
     "1vc27fy",
     "1vd1264",
     "1vdl56d",
-    "1vf4ns4"
+    "1vf4ns4",
+    "1vfqcpe"
   ],
   "episodes": [
     {
@@ -271,6 +272,14 @@
       "description": "Today on Petty Court, Max and Ivy dissect a friendship gone sideways when a comedian uses a deeply embarrassing personal story for a laugh. Did our OP have every right to walk out, or did they ruin a friend's big moment? (Source: r/AmItheAsshole)",
       "length_bytes": 5794605,
       "pub_date": "2026-08-04T11:27:17.986959+00:00"
+    },
+    {
+      "id": "1vfqcpe",
+      "title": "Don't Leave Tony Alone (Or Else!)",
+      "audio": "1vfqcpe.mp3",
+      "description": "Max and Ivy delve into an r/AmItheAsshole tale where a coworker's deep-seated fear of ghosts meets an unexpected family emergency. Who's the ghoul in this office haunting? (Source: r/AmItheAsshole)",
+      "length_bytes": 6681645,
+      "pub_date": "2026-08-05T11:26:24.256617+00:00"
     }
   ]
 }
