@@ -12,7 +12,7 @@
       <link>https://serdarkucuklu.github.io/petty-court</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Fri, 07 Aug 2026 10:05:24 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Aug 2026 09:42:12 +0000</lastBuildDate>
     <itunes:author>Petty Court</itunes:author>
     <itunes:category text="Comedy"/>
     <itunes:image href="https://serdarkucuklu.github.io/petty-court/cover.png"/>
@@ -22,6 +22,14 @@
       <itunes:email>serdarkucuklu@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:summary>Two hosts react to the internet's pettiest revenge and drama, every day.</itunes:summary>
+    <item>
+      <title>Operation: Save the Reunion (and Hide the Snake)</title>
+      <description>Max and Ivy grapple with a boyfriend's desperate plan to protect his girlfriend's fragile family reunion from a shocking and slithery tragedy. Is hiding a dead pet ever the right move? Source: r/AmItheAsshole.</description>
+      <guid isPermaLink="false">1viqncc</guid>
+      <enclosure url="https://serdarkucuklu.github.io/petty-court/1viqncc.mp3" length="6409389" type="audio/mpeg"/>
+      <pubDate>Sat, 08 Aug 2026 09:42:12 +0000</pubDate>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>Leaf Water Logistics: The Starbucks Showdown</title>
       <description>This week, Max and Ivy dive into a family feud sparked by a simple beverage. A daughter-in-law's 'leaf water' policy leads to a shocking Starbucks showdown and a family revelation you won't believe. Source: r/AmItheAsshole</description>

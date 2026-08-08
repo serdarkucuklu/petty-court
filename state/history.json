@@ -32,7 +32,8 @@
     "1vf4ns4",
     "1vfqcpe",
     "1vgz0bt",
-    "1vh5t6d"
+    "1vh5t6d",
+    "1viqncc"
   ],
   "episodes": [
     {
@@ -298,6 +299,14 @@
       "description": "This week, Max and Ivy dive into a family feud sparked by a simple beverage. A daughter-in-law's 'leaf water' policy leads to a shocking Starbucks showdown and a family revelation you won't believe. Source: r/AmItheAsshole",
       "length_bytes": 5821869,
       "pub_date": "2026-08-07T10:05:24.200140+00:00"
+    },
+    {
+      "id": "1viqncc",
+      "title": "Operation: Save the Reunion (and Hide the Snake)",
+      "audio": "1viqncc.mp3",
+      "description": "Max and Ivy grapple with a boyfriend's desperate plan to protect his girlfriend's fragile family reunion from a shocking and slithery tragedy. Is hiding a dead pet ever the right move? Source: r/AmItheAsshole.",
+      "length_bytes": 6409389,
+      "pub_date": "2026-08-08T09:42:12.930488+00:00"
     }
   ]
 }
