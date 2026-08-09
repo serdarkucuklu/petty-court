@@ -33,7 +33,8 @@
     "1vfqcpe",
     "1vgz0bt",
     "1vh5t6d",
-    "1viqncc"
+    "1viqncc",
+    "1viwrfp"
   ],
   "episodes": [
     {
@@ -307,6 +308,14 @@
       "description": "Max and Ivy grapple with a boyfriend's desperate plan to protect his girlfriend's fragile family reunion from a shocking and slithery tragedy. Is hiding a dead pet ever the right move? Source: r/AmItheAsshole.",
       "length_bytes": 6409389,
       "pub_date": "2026-08-08T09:42:12.930488+00:00"
+    },
+    {
+      "id": "1viwrfp",
+      "title": "The Post-Partum Feast Fiasco",
+      "audio": "1viwrfp.mp3",
+      "description": "Max and Ivy dissect a Reddit story where a new dad leaves his wife post-birth to fulfill a very specific, and poorly timed, promise. Source: r/AmItheAsshole.",
+      "length_bytes": 5799597,
+      "pub_date": "2026-08-09T09:42:40.979731+00:00"
     }
   ]
 }
