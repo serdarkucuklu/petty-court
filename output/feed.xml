@@ -12,7 +12,7 @@
       <link>https://serdarkucuklu.github.io/petty-court</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Aug 2026 09:42:40 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 10:19:31 +0000</lastBuildDate>
     <itunes:author>Petty Court</itunes:author>
     <itunes:category text="Comedy"/>
     <itunes:image href="https://serdarkucuklu.github.io/petty-court/cover.png"/>
@@ -22,6 +22,14 @@
       <itunes:email>serdarkucuklu@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:summary>Two hosts react to the internet's pettiest revenge and drama, every day.</itunes:summary>
+    <item>
+      <title>Life360, Locked Doors, and Lingering Parental Guilt Trips</title>
+      <description>Max and Ivy dissect a Reddit story about a 23-year-old who refused entry to her parents after they drove four hours for a surprise visit. Was it rude, or a necessary boundary? Find out on Petty Court! (Original story from r/AmItheAsshole)</description>
+      <guid isPermaLink="false">1vjqqkh</guid>
+      <enclosure url="https://serdarkucuklu.github.io/petty-court/1vjqqkh.mp3" length="5125677" type="audio/mpeg"/>
+      <pubDate>Mon, 10 Aug 2026 10:19:31 +0000</pubDate>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>The Post-Partum Feast Fiasco</title>
       <description>Max and Ivy dissect a Reddit story where a new dad leaves his wife post-birth to fulfill a very specific, and poorly timed, promise. Source: r/AmItheAsshole.</description>

@@ -34,7 +34,8 @@
     "1vgz0bt",
     "1vh5t6d",
     "1viqncc",
-    "1viwrfp"
+    "1viwrfp",
+    "1vjqqkh"
   ],
   "episodes": [
     {
@@ -316,6 +317,14 @@
       "description": "Max and Ivy dissect a Reddit story where a new dad leaves his wife post-birth to fulfill a very specific, and poorly timed, promise. Source: r/AmItheAsshole.",
       "length_bytes": 5799597,
       "pub_date": "2026-08-09T09:42:40.979731+00:00"
+    },
+    {
+      "id": "1vjqqkh",
+      "title": "Life360, Locked Doors, and Lingering Parental Guilt Trips",
+      "audio": "1vjqqkh.mp3",
+      "description": "Max and Ivy dissect a Reddit story about a 23-year-old who refused entry to her parents after they drove four hours for a surprise visit. Was it rude, or a necessary boundary? Find out on Petty Court! (Original story from r/AmItheAsshole)",
+      "length_bytes": 5125677,
+      "pub_date": "2026-08-10T10:19:31.791508+00:00"
     }
   ]
 }
