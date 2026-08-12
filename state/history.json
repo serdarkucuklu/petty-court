@@ -35,7 +35,8 @@
     "1vh5t6d",
     "1viqncc",
     "1viwrfp",
-    "1vjqqkh"
+    "1vjqqkh",
+    "1vm5mkr"
   ],
   "episodes": [
     {
@@ -325,6 +326,14 @@
       "description": "Max and Ivy dissect a Reddit story about a 23-year-old who refused entry to her parents after they drove four hours for a surprise visit. Was it rude, or a necessary boundary? Find out on Petty Court! (Original story from r/AmItheAsshole)",
       "length_bytes": 5125677,
       "pub_date": "2026-08-10T10:19:31.791508+00:00"
+    },
+    {
+      "id": "1vm5mkr",
+      "title": "Petty Court: The Pee-Pee Brother and the Eviction of Convenience",
+      "audio": "1vm5mkr.mp3",
+      "description": "Max and Ivy tackle a truly wild family dynamic where one sibling gets a free pass on everything, while the other is expected to literally give up their home for a stranger. This week's drama comes courtesy of r/AmItheAsshole.",
+      "length_bytes": 7181229,
+      "pub_date": "2026-08-12T10:09:27.892019+00:00"
     }
   ]
 }
