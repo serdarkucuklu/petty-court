@@ -12,7 +12,7 @@
       <link>https://serdarkucuklu.github.io/petty-court</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Aug 2026 10:11:17 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 10:05:47 +0000</lastBuildDate>
     <itunes:author>Petty Court</itunes:author>
     <itunes:category text="Comedy"/>
     <itunes:image href="https://serdarkucuklu.github.io/petty-court/cover.png"/>
@@ -22,6 +22,14 @@
       <itunes:email>serdarkucuklu@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:summary>Two hosts react to the internet's pettiest revenge and drama, every day.</itunes:summary>
+    <item>
+      <title>Vow Renewal Drama: The Case of the Identical Cream Suits</title>
+      <description>Max and Ivy dive into an r/AmItheAsshole tale of family gifts, unexpected fashion choices, and a vow renewal that went from sweet to supremely awkward. Get ready for some serious second-hand embarrassment!</description>
+      <guid isPermaLink="false">1vo1lzu</guid>
+      <enclosure url="https://serdarkucuklu.github.io/petty-court/1vo1lzu.mp3" length="5815725" type="audio/mpeg"/>
+      <pubDate>Fri, 14 Aug 2026 10:05:47 +0000</pubDate>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>The Toddler Timeline: Fiancé's Fertility Fast-Track</title>
       <description>On Petty Court today, Max and Ivy dissect a Reddit story about a fiancé's absurd baby-making demands and his shockingly terrible math skills. Is he really trying to put a three-year deadline on his partner's entire reproductive future? Source: r/AmItheAsshole.</description>

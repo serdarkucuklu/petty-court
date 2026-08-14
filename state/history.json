@@ -37,7 +37,8 @@
     "1viwrfp",
     "1vjqqkh",
     "1vm5mkr",
-    "1vn3gyb"
+    "1vn3gyb",
+    "1vo1lzu"
   ],
   "episodes": [
     {
@@ -343,6 +344,14 @@
       "description": "On Petty Court today, Max and Ivy dissect a Reddit story about a fiancé's absurd baby-making demands and his shockingly terrible math skills. Is he really trying to put a three-year deadline on his partner's entire reproductive future? Source: r/AmItheAsshole.",
       "length_bytes": 5123757,
       "pub_date": "2026-08-13T10:11:17.295536+00:00"
+    },
+    {
+      "id": "1vo1lzu",
+      "title": "Vow Renewal Drama: The Case of the Identical Cream Suits",
+      "audio": "1vo1lzu.mp3",
+      "description": "Max and Ivy dive into an r/AmItheAsshole tale of family gifts, unexpected fashion choices, and a vow renewal that went from sweet to supremely awkward. Get ready for some serious second-hand embarrassment!",
+      "length_bytes": 5815725,
+      "pub_date": "2026-08-14T10:05:47.647243+00:00"
     }
   ]
 }
