@@ -12,7 +12,7 @@
       <link>https://serdarkucuklu.github.io/petty-court</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Fri, 14 Aug 2026 10:05:47 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 09:29:30 +0000</lastBuildDate>
     <itunes:author>Petty Court</itunes:author>
     <itunes:category text="Comedy"/>
     <itunes:image href="https://serdarkucuklu.github.io/petty-court/cover.png"/>
@@ -22,6 +22,14 @@
       <itunes:email>serdarkucuklu@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:summary>Two hosts react to the internet's pettiest revenge and drama, every day.</itunes:summary>
+    <item>
+      <title>The Nine-Month Meow-napping</title>
+      <description>Max and Ivy discuss a case of purr-fectly legal adoption gone awry when the original 'owners' reappear nine months later. We're talking microchips, council laws, and a whole lot of feline drama, courtesy of r/AmItheAsshole.</description>
+      <guid isPermaLink="false">1vo3g93</guid>
+      <enclosure url="https://serdarkucuklu.github.io/petty-court/1vo3g93.mp3" length="6758445" type="audio/mpeg"/>
+      <pubDate>Sat, 15 Aug 2026 09:29:30 +0000</pubDate>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>Vow Renewal Drama: The Case of the Identical Cream Suits</title>
       <description>Max and Ivy dive into an r/AmItheAsshole tale of family gifts, unexpected fashion choices, and a vow renewal that went from sweet to supremely awkward. Get ready for some serious second-hand embarrassment!</description>

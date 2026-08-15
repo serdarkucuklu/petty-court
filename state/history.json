@@ -38,7 +38,8 @@
     "1vjqqkh",
     "1vm5mkr",
     "1vn3gyb",
-    "1vo1lzu"
+    "1vo1lzu",
+    "1vo3g93"
   ],
   "episodes": [
     {
@@ -352,6 +353,14 @@
       "description": "Max and Ivy dive into an r/AmItheAsshole tale of family gifts, unexpected fashion choices, and a vow renewal that went from sweet to supremely awkward. Get ready for some serious second-hand embarrassment!",
       "length_bytes": 5815725,
       "pub_date": "2026-08-14T10:05:47.647243+00:00"
+    },
+    {
+      "id": "1vo3g93",
+      "title": "The Nine-Month Meow-napping",
+      "audio": "1vo3g93.mp3",
+      "description": "Max and Ivy discuss a case of purr-fectly legal adoption gone awry when the original 'owners' reappear nine months later. We're talking microchips, council laws, and a whole lot of feline drama, courtesy of r/AmItheAsshole.",
+      "length_bytes": 6758445,
+      "pub_date": "2026-08-15T09:29:30.107575+00:00"
     }
   ]
 }
