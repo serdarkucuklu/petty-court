@@ -39,7 +39,8 @@
     "1vm5mkr",
     "1vn3gyb",
     "1vo1lzu",
-    "1vo3g93"
+    "1vo3g93",
+    "1vppj6z"
   ],
   "episodes": [
     {
@@ -361,6 +362,14 @@
       "description": "Max and Ivy discuss a case of purr-fectly legal adoption gone awry when the original 'owners' reappear nine months later. We're talking microchips, council laws, and a whole lot of feline drama, courtesy of r/AmItheAsshole.",
       "length_bytes": 6758445,
       "pub_date": "2026-08-15T09:29:30.107575+00:00"
+    },
+    {
+      "id": "1vppj6z",
+      "title": "Once Upon a Stolen Bow",
+      "audio": "1vppj6z.mp3",
+      "description": "This week on Petty Court, Max and Ivy delve into a fairy tale gone wrong when a professional Party Princess discovers a sisterly betrayal over a very expensive hair bow. Get ready for glitter, drama, and a heated debate about the true cost of an accessory, sourced from r/AmItheAsshole.",
+      "length_bytes": 5457069,
+      "pub_date": "2026-08-16T09:30:24.403460+00:00"
     }
   ]
 }
