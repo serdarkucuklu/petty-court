@@ -40,7 +40,8 @@
     "1vn3gyb",
     "1vo1lzu",
     "1vo3g93",
-    "1vppj6z"
+    "1vppj6z",
+    "1vq7piq"
   ],
   "episodes": [
     {
@@ -370,6 +371,14 @@
       "description": "This week on Petty Court, Max and Ivy delve into a fairy tale gone wrong when a professional Party Princess discovers a sisterly betrayal over a very expensive hair bow. Get ready for glitter, drama, and a heated debate about the true cost of an accessory, sourced from r/AmItheAsshole.",
       "length_bytes": 5457069,
       "pub_date": "2026-08-16T09:30:24.403460+00:00"
+    },
+    {
+      "id": "1vq7piq",
+      "title": "Contamination Station: Friend or Foe?",
+      "audio": "1vq7piq.mp3",
+      "description": "Max and Ivy dive into a truly wild tale from r/AmItheAsshole where a friend group’s chill dynamic gets utterly disrupted by a new girlfriend’s extreme, misdirected fears. Is our OP an ableist, or just trying to avoid being declared a biohazard by the germ-averse new addition?",
+      "length_bytes": 6233517,
+      "pub_date": "2026-08-17T09:46:14.729692+00:00"
     }
   ]
 }
