@@ -12,7 +12,7 @@
       <link>https://serdarkucuklu.github.io/petty-court</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Aug 2026 09:46:14 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 09:37:46 +0000</lastBuildDate>
     <itunes:author>Petty Court</itunes:author>
     <itunes:category text="Comedy"/>
     <itunes:image href="https://serdarkucuklu.github.io/petty-court/cover.png"/>
@@ -22,6 +22,14 @@
       <itunes:email>serdarkucuklu@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:summary>Two hosts react to the internet's pettiest revenge and drama, every day.</itunes:summary>
+    <item>
+      <title>Operation: Cat-nap a Neglected Feline</title>
+      <description>Max and Ivy dive into a Reddit tale of a pet sitter who uncovers a shocking secret: a neglected cat locked away in a tiny room, leading to a moral dilemma. Our hosts debate if it's ever okay to 'rescue' an animal from its owners on this episode of Petty Court, inspired by r/AmItheAsshole.</description>
+      <guid isPermaLink="false">1vr0ei8</guid>
+      <enclosure url="https://serdarkucuklu.github.io/petty-court/1vr0ei8.mp3" length="6531117" type="audio/mpeg"/>
+      <pubDate>Tue, 18 Aug 2026 09:37:46 +0000</pubDate>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>Contamination Station: Friend or Foe?</title>
       <description>Max and Ivy dive into a truly wild tale from r/AmItheAsshole where a friend group’s chill dynamic gets utterly disrupted by a new girlfriend’s extreme, misdirected fears. Is our OP an ableist, or just trying to avoid being declared a biohazard by the germ-averse new addition?</description>
