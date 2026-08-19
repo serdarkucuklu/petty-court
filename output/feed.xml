@@ -12,7 +12,7 @@
       <link>https://serdarkucuklu.github.io/petty-court</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Aug 2026 09:37:46 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 09:40:33 +0000</lastBuildDate>
     <itunes:author>Petty Court</itunes:author>
     <itunes:category text="Comedy"/>
     <itunes:image href="https://serdarkucuklu.github.io/petty-court/cover.png"/>
@@ -22,6 +22,14 @@
       <itunes:email>serdarkucuklu@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:summary>Two hosts react to the internet's pettiest revenge and drama, every day.</itunes:summary>
+    <item>
+      <title>The Canned Tuna Comeuppance</title>
+      <description>This week on Petty Court, Max and Ivy dissect a Reddit tale of family dinners gone wrong when one brother's low-effort hosting meets his sister's elaborate spreads. Get ready for a delicious dose of drama, reciprocity, and a surprising accusation of sexism from r/AmItheAsshole.</description>
+      <guid isPermaLink="false">1vs7jos</guid>
+      <enclosure url="https://serdarkucuklu.github.io/petty-court/1vs7jos.mp3" length="5445165" type="audio/mpeg"/>
+      <pubDate>Wed, 19 Aug 2026 09:40:33 +0000</pubDate>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>Operation: Cat-nap a Neglected Feline</title>
       <description>Max and Ivy dive into a Reddit tale of a pet sitter who uncovers a shocking secret: a neglected cat locked away in a tiny room, leading to a moral dilemma. Our hosts debate if it's ever okay to 'rescue' an animal from its owners on this episode of Petty Court, inspired by r/AmItheAsshole.</description>

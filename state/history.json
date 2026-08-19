@@ -42,7 +42,8 @@
     "1vo3g93",
     "1vppj6z",
     "1vq7piq",
-    "1vr0ei8"
+    "1vr0ei8",
+    "1vs7jos"
   ],
   "episodes": [
     {
@@ -388,6 +389,14 @@
       "description": "Max and Ivy dive into a Reddit tale of a pet sitter who uncovers a shocking secret: a neglected cat locked away in a tiny room, leading to a moral dilemma. Our hosts debate if it's ever okay to 'rescue' an animal from its owners on this episode of Petty Court, inspired by r/AmItheAsshole.",
       "length_bytes": 6531117,
       "pub_date": "2026-08-18T09:37:46.146075+00:00"
+    },
+    {
+      "id": "1vs7jos",
+      "title": "The Canned Tuna Comeuppance",
+      "audio": "1vs7jos.mp3",
+      "description": "This week on Petty Court, Max and Ivy dissect a Reddit tale of family dinners gone wrong when one brother's low-effort hosting meets his sister's elaborate spreads. Get ready for a delicious dose of drama, reciprocity, and a surprising accusation of sexism from r/AmItheAsshole.",
+      "length_bytes": 5445165,
+      "pub_date": "2026-08-19T09:40:33.630198+00:00"
     }
   ]
 }
