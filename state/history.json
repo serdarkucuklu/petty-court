@@ -43,7 +43,8 @@
     "1vppj6z",
     "1vq7piq",
     "1vr0ei8",
-    "1vs7jos"
+    "1vs7jos",
+    "1vslyt4"
   ],
   "episodes": [
     {
@@ -397,6 +398,14 @@
       "description": "This week on Petty Court, Max and Ivy dissect a Reddit tale of family dinners gone wrong when one brother's low-effort hosting meets his sister's elaborate spreads. Get ready for a delicious dose of drama, reciprocity, and a surprising accusation of sexism from r/AmItheAsshole.",
       "length_bytes": 5445165,
       "pub_date": "2026-08-19T09:40:33.630198+00:00"
+    },
+    {
+      "id": "1vslyt4",
+      "title": "Squatter's Rights (to Your Couch) - Mom's Boyfriend Edition",
+      "audio": "1vslyt4.mp3",
+      "description": "Max and Ivy tackle a Reddit story about a 23-year-old trying to establish her own life, only to find herself financially supporting her disabled mom and her mom's completely able-bodied, jobless boyfriend. Hear all the drama from r/AmItheAsshole!",
+      "length_bytes": 5063085,
+      "pub_date": "2026-08-20T09:37:33.690687+00:00"
     }
   ]
 }
