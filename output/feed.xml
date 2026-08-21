@@ -12,7 +12,7 @@
       <link>https://serdarkucuklu.github.io/petty-court</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Aug 2026 09:37:33 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 09:46:14 +0000</lastBuildDate>
     <itunes:author>Petty Court</itunes:author>
     <itunes:category text="Comedy"/>
     <itunes:image href="https://serdarkucuklu.github.io/petty-court/cover.png"/>
@@ -22,6 +22,14 @@
       <itunes:email>serdarkucuklu@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:summary>Two hosts react to the internet's pettiest revenge and drama, every day.</itunes:summary>
+    <item>
+      <title>First Class Fury: The Upgrade That Broke the Family Barrier</title>
+      <description>Max and Ivy dissect a Reddit tale of a flight upgrade gone terribly wrong, sparking family drama on a luxurious cruise. Was flying first class worth the passive-aggressive side-eyes? Tune in to Petty Court to find out. (Source: r/AmItheAsshole)</description>
+      <guid isPermaLink="false">1vu2xbu</guid>
+      <enclosure url="https://serdarkucuklu.github.io/petty-court/1vu2xbu.mp3" length="7825197" type="audio/mpeg"/>
+      <pubDate>Fri, 21 Aug 2026 09:46:14 +0000</pubDate>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>Squatter's Rights (to Your Couch) - Mom's Boyfriend Edition</title>
       <description>Max and Ivy tackle a Reddit story about a 23-year-old trying to establish her own life, only to find herself financially supporting her disabled mom and her mom's completely able-bodied, jobless boyfriend. Hear all the drama from r/AmItheAsshole!</description>
