@@ -12,7 +12,7 @@
       <link>https://serdarkucuklu.github.io/petty-court</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Aug 2026 09:46:14 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 09:29:32 +0000</lastBuildDate>
     <itunes:author>Petty Court</itunes:author>
     <itunes:category text="Comedy"/>
     <itunes:image href="https://serdarkucuklu.github.io/petty-court/cover.png"/>
@@ -22,6 +22,14 @@
       <itunes:email>serdarkucuklu@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:summary>Two hosts react to the internet's pettiest revenge and drama, every day.</itunes:summary>
+    <item>
+      <title>Gender Reveal Sabotage: The Teresa Takes All Challenge!</title>
+      <description>Max and Ivy dive into a Reddit story where a 'gender keeper' is tricked into spilling the beans by a notorious 'main character' friend, leading to a party-day lie. From r/AmItheAsshole.</description>
+      <guid isPermaLink="false">1vuc5k9</guid>
+      <enclosure url="https://serdarkucuklu.github.io/petty-court/1vuc5k9.mp3" length="6113325" type="audio/mpeg"/>
+      <pubDate>Sat, 22 Aug 2026 09:29:32 +0000</pubDate>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>First Class Fury: The Upgrade That Broke the Family Barrier</title>
       <description>Max and Ivy dissect a Reddit tale of a flight upgrade gone terribly wrong, sparking family drama on a luxurious cruise. Was flying first class worth the passive-aggressive side-eyes? Tune in to Petty Court to find out. (Source: r/AmItheAsshole)</description>

@@ -45,7 +45,8 @@
     "1vr0ei8",
     "1vs7jos",
     "1vslyt4",
-    "1vu2xbu"
+    "1vu2xbu",
+    "1vuc5k9"
   ],
   "episodes": [
     {
@@ -415,6 +416,14 @@
       "description": "Max and Ivy dissect a Reddit tale of a flight upgrade gone terribly wrong, sparking family drama on a luxurious cruise. Was flying first class worth the passive-aggressive side-eyes? Tune in to Petty Court to find out. (Source: r/AmItheAsshole)",
       "length_bytes": 7825197,
       "pub_date": "2026-08-21T09:46:14.196758+00:00"
+    },
+    {
+      "id": "1vuc5k9",
+      "title": "Gender Reveal Sabotage: The Teresa Takes All Challenge!",
+      "audio": "1vuc5k9.mp3",
+      "description": "Max and Ivy dive into a Reddit story where a 'gender keeper' is tricked into spilling the beans by a notorious 'main character' friend, leading to a party-day lie. From r/AmItheAsshole.",
+      "length_bytes": 6113325,
+      "pub_date": "2026-08-22T09:29:32.588406+00:00"
     }
   ]
 }
