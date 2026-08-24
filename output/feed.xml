@@ -12,7 +12,7 @@
       <link>https://serdarkucuklu.github.io/petty-court</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Sat, 22 Aug 2026 09:29:32 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 09:52:15 +0000</lastBuildDate>
     <itunes:author>Petty Court</itunes:author>
     <itunes:category text="Comedy"/>
     <itunes:image href="https://serdarkucuklu.github.io/petty-court/cover.png"/>
@@ -22,6 +22,14 @@
       <itunes:email>serdarkucuklu@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:summary>Two hosts react to the internet's pettiest revenge and drama, every day.</itunes:summary>
+    <item>
+      <title>Cabin Fever: Mom Edition - Uninvited &amp; Unhinged!</title>
+      <description>Max and Ivy dive into the ultimate group trip dilemma: When one 'friend' threatens to derail the whole weekend, is uninviting them petty or prudent? We unpack a juicy story from r/AmItheAsshole.</description>
+      <guid isPermaLink="false">1vw9op4</guid>
+      <enclosure url="https://serdarkucuklu.github.io/petty-court/1vw9op4.mp3" length="6072237" type="audio/mpeg"/>
+      <pubDate>Mon, 24 Aug 2026 09:52:15 +0000</pubDate>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>Gender Reveal Sabotage: The Teresa Takes All Challenge!</title>
       <description>Max and Ivy dive into a Reddit story where a 'gender keeper' is tricked into spilling the beans by a notorious 'main character' friend, leading to a party-day lie. From r/AmItheAsshole.</description>
