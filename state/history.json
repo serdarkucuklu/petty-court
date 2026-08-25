@@ -47,7 +47,8 @@
     "1vslyt4",
     "1vu2xbu",
     "1vuc5k9",
-    "1vw9op4"
+    "1vw9op4",
+    "1vxcnpf"
   ],
   "episodes": [
     {
@@ -433,6 +434,14 @@
       "description": "Max and Ivy dive into the ultimate group trip dilemma: When one 'friend' threatens to derail the whole weekend, is uninviting them petty or prudent? We unpack a juicy story from r/AmItheAsshole.",
       "length_bytes": 6072237,
       "pub_date": "2026-08-24T09:52:15.621957+00:00"
+    },
+    {
+      "id": "1vxcnpf",
+      "title": "The Ghost Boyfriend Protocol: My Family's Homophobia, My Fake Boo",
+      "audio": "1vxcnpf.mp3",
+      "description": "Max and Ivy dissect a Reddit tale of a woman who invents a fictional boyfriend to ward off her judgmental, homophobic family. Is she the jerk for finding a loophole in their bigotry? (Source: r/AmItheAsshole)",
+      "length_bytes": 6003885,
+      "pub_date": "2026-08-25T09:38:04.448113+00:00"
     }
   ]
 }

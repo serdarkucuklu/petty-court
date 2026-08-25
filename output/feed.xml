@@ -12,7 +12,7 @@
       <link>https://serdarkucuklu.github.io/petty-court</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Aug 2026 09:52:15 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 09:38:04 +0000</lastBuildDate>
     <itunes:author>Petty Court</itunes:author>
     <itunes:category text="Comedy"/>
     <itunes:image href="https://serdarkucuklu.github.io/petty-court/cover.png"/>
@@ -22,6 +22,14 @@
       <itunes:email>serdarkucuklu@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:summary>Two hosts react to the internet's pettiest revenge and drama, every day.</itunes:summary>
+    <item>
+      <title>The Ghost Boyfriend Protocol: My Family's Homophobia, My Fake Boo</title>
+      <description>Max and Ivy dissect a Reddit tale of a woman who invents a fictional boyfriend to ward off her judgmental, homophobic family. Is she the jerk for finding a loophole in their bigotry? (Source: r/AmItheAsshole)</description>
+      <guid isPermaLink="false">1vxcnpf</guid>
+      <enclosure url="https://serdarkucuklu.github.io/petty-court/1vxcnpf.mp3" length="6003885" type="audio/mpeg"/>
+      <pubDate>Tue, 25 Aug 2026 09:38:04 +0000</pubDate>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>Cabin Fever: Mom Edition - Uninvited &amp; Unhinged!</title>
       <description>Max and Ivy dive into the ultimate group trip dilemma: When one 'friend' threatens to derail the whole weekend, is uninviting them petty or prudent? We unpack a juicy story from r/AmItheAsshole.</description>
