@@ -48,7 +48,8 @@
     "1vu2xbu",
     "1vuc5k9",
     "1vw9op4",
-    "1vxcnpf"
+    "1vxcnpf",
+    "1vym9m6"
   ],
   "episodes": [
     {
@@ -442,6 +443,14 @@
       "description": "Max and Ivy dissect a Reddit tale of a woman who invents a fictional boyfriend to ward off her judgmental, homophobic family. Is she the jerk for finding a loophole in their bigotry? (Source: r/AmItheAsshole)",
       "length_bytes": 6003885,
       "pub_date": "2026-08-25T09:38:04.448113+00:00"
+    },
+    {
+      "id": "1vym9m6",
+      "title": "The Bridesmaid, the Beast, and the Tattoo Tab",
+      "audio": "1vym9m6.mp3",
+      "description": "This week on Petty Court, Max and Ivy unpack the wild tale of a bridesmaid who ghosted after stiffing her friend on pet-sitting fees for a *very* aggressive dog, all while dropping thousands on vacation tattoos. Source credit: r/AmItheAsshole.",
+      "length_bytes": 6282285,
+      "pub_date": "2026-08-26T09:44:50.322211+00:00"
     }
   ]
 }

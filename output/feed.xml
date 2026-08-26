@@ -12,7 +12,7 @@
       <link>https://serdarkucuklu.github.io/petty-court</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Aug 2026 09:38:04 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 09:44:50 +0000</lastBuildDate>
     <itunes:author>Petty Court</itunes:author>
     <itunes:category text="Comedy"/>
     <itunes:image href="https://serdarkucuklu.github.io/petty-court/cover.png"/>
@@ -22,6 +22,14 @@
       <itunes:email>serdarkucuklu@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:summary>Two hosts react to the internet's pettiest revenge and drama, every day.</itunes:summary>
+    <item>
+      <title>The Bridesmaid, the Beast, and the Tattoo Tab</title>
+      <description>This week on Petty Court, Max and Ivy unpack the wild tale of a bridesmaid who ghosted after stiffing her friend on pet-sitting fees for a *very* aggressive dog, all while dropping thousands on vacation tattoos. Source credit: r/AmItheAsshole.</description>
+      <guid isPermaLink="false">1vym9m6</guid>
+      <enclosure url="https://serdarkucuklu.github.io/petty-court/1vym9m6.mp3" length="6282285" type="audio/mpeg"/>
+      <pubDate>Wed, 26 Aug 2026 09:44:50 +0000</pubDate>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>The Ghost Boyfriend Protocol: My Family's Homophobia, My Fake Boo</title>
       <description>Max and Ivy dissect a Reddit tale of a woman who invents a fictional boyfriend to ward off her judgmental, homophobic family. Is she the jerk for finding a loophole in their bigotry? (Source: r/AmItheAsshole)</description>
