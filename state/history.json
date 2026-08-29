@@ -50,7 +50,8 @@
     "1vw9op4",
     "1vxcnpf",
     "1vym9m6",
-    "1vzfzdb"
+    "1vzfzdb",
+    "1w14rdj"
   ],
   "episodes": [
     {
@@ -460,6 +461,14 @@
       "description": "This week on Petty Court, Max and Ivy dissect a Reddit tale of a mother's questionable obsession with her daughter's prom dress. Did mom cross the line when she tried it on, then *asked* for the 'tight' one again? Find out on r/AmItheAsshole!",
       "length_bytes": 6432429,
       "pub_date": "2026-08-27T19:32:36.101221+00:00"
+    },
+    {
+      "id": "1w14rdj",
+      "title": "Grandpa's Digital Detox: Nudes, Scammers, & a Phone Lockout",
+      "audio": "1w14rdj.mp3",
+      "description": "Max and Ivy dive into a Reddit tale of a 76-year-old grandpa, chat apps, and a grandchild's drastic measures to stop online scammers. Was locking his phone the right move? Source: r/AmItheAsshole.",
+      "length_bytes": 5272365,
+      "pub_date": "2026-08-29T14:14:27.506447+00:00"
     }
   ]
 }
