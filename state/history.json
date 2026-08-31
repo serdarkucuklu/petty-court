@@ -51,7 +51,8 @@
     "1vxcnpf",
     "1vym9m6",
     "1vzfzdb",
-    "1w14rdj"
+    "1w14rdj",
+    "1w337wq"
   ],
   "episodes": [
     {
@@ -469,6 +470,14 @@
       "description": "Max and Ivy dive into a Reddit tale of a 76-year-old grandpa, chat apps, and a grandchild's drastic measures to stop online scammers. Was locking his phone the right move? Source: r/AmItheAsshole.",
       "length_bytes": 5272365,
       "pub_date": "2026-08-29T14:14:27.506447+00:00"
+    },
+    {
+      "id": "1w337wq",
+      "title": "Dinner Disaster & The Deadly Dish Compliment",
+      "audio": "1w337wq.mp3",
+      "description": "A wife's 'tongue-in-cheek' retort about daily cooking blows up her husband's ego and their quiet dinner. We're diving into the kitchen chaos from r/AmItheAsshole!",
+      "length_bytes": 4752429,
+      "pub_date": "2026-08-31T16:48:33.308795+00:00"
     }
   ]
 }
