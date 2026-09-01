@@ -12,7 +12,7 @@
       <link>https://serdarkucuklu.github.io/petty-court</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Mon, 31 Aug 2026 16:48:33 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 14:02:36 +0000</lastBuildDate>
     <itunes:author>Petty Court</itunes:author>
     <itunes:category text="Comedy"/>
     <itunes:image href="https://serdarkucuklu.github.io/petty-court/cover.png"/>
@@ -22,6 +22,14 @@
       <itunes:email>serdarkucuklu@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:summary>Two hosts react to the internet's pettiest revenge and drama, every day.</itunes:summary>
+    <item>
+      <title>Vacation Invasion: The Brotherly Betrayal</title>
+      <description>Max and Ivy unpack a wild Reddit tale where a family vacation gets hijacked by a brother's brand-new girlfriend, her child, and even her dog! Is our original poster the A-hole for setting a crucial boundary in this chaotic r/AmItheAsshole story?</description>
+      <guid isPermaLink="false">1w4364z</guid>
+      <enclosure url="https://serdarkucuklu.github.io/petty-court/1w4364z.mp3" length="7134765" type="audio/mpeg"/>
+      <pubDate>Tue, 01 Sep 2026 14:02:36 +0000</pubDate>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>Dinner Disaster &amp; The Deadly Dish Compliment</title>
       <description>A wife's 'tongue-in-cheek' retort about daily cooking blows up her husband's ego and their quiet dinner. We're diving into the kitchen chaos from r/AmItheAsshole!</description>
