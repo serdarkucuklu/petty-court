@@ -12,7 +12,7 @@
       <link>https://serdarkucuklu.github.io/petty-court</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Sep 2026 14:02:36 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 13:23:07 +0000</lastBuildDate>
     <itunes:author>Petty Court</itunes:author>
     <itunes:category text="Comedy"/>
     <itunes:image href="https://serdarkucuklu.github.io/petty-court/cover.png"/>
@@ -22,6 +22,14 @@
       <itunes:email>serdarkucuklu@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:summary>Two hosts react to the internet's pettiest revenge and drama, every day.</itunes:summary>
+    <item>
+      <title>Jam, Jive, and a Viral Vengeance</title>
+      <description>This week on Petty Court, Max and Ivy dive into the sticky situation of office food theft, and a coworker's shocking, yet entirely fabricated, retaliation. Was OP justified in deploying a viral rumor to protect her jam? (Based on a story from r/AmItheAsshole)</description>
+      <guid isPermaLink="false">1w583hg</guid>
+      <enclosure url="https://serdarkucuklu.github.io/petty-court/1w583hg.mp3" length="7647789" type="audio/mpeg"/>
+      <pubDate>Wed, 02 Sep 2026 13:23:07 +0000</pubDate>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>Vacation Invasion: The Brotherly Betrayal</title>
       <description>Max and Ivy unpack a wild Reddit tale where a family vacation gets hijacked by a brother's brand-new girlfriend, her child, and even her dog! Is our original poster the A-hole for setting a crucial boundary in this chaotic r/AmItheAsshole story?</description>
