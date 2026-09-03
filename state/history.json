@@ -54,7 +54,8 @@
     "1w14rdj",
     "1w337wq",
     "1w4364z",
-    "1w583hg"
+    "1w583hg",
+    "1w5rykg"
   ],
   "episodes": [
     {
@@ -496,6 +497,14 @@
       "description": "This week on Petty Court, Max and Ivy dive into the sticky situation of office food theft, and a coworker's shocking, yet entirely fabricated, retaliation. Was OP justified in deploying a viral rumor to protect her jam? (Based on a story from r/AmItheAsshole)",
       "length_bytes": 7647789,
       "pub_date": "2026-09-02T13:23:07.117689+00:00"
+    },
+    {
+      "id": "1w5rykg",
+      "title": "Wedding Hair & Bribe Warfare",
+      "audio": "1w5rykg.mp3",
+      "description": "An adult man's impeccably groomed long hair becomes the subject of intense family pressure, bribes, and guilt trips ahead of his sister's wedding. Max and Ivy untangle the drama from r/AmItheAsshole and ask: when is a wedding *not* about the happy couple?",
+      "length_bytes": 5667885,
+      "pub_date": "2026-09-03T13:21:57.318210+00:00"
     }
   ]
 }
