@@ -55,7 +55,8 @@
     "1w337wq",
     "1w4364z",
     "1w583hg",
-    "1w5rykg"
+    "1w5rykg",
+    "1w7262v"
   ],
   "episodes": [
     {
@@ -505,6 +506,14 @@
       "description": "An adult man's impeccably groomed long hair becomes the subject of intense family pressure, bribes, and guilt trips ahead of his sister's wedding. Max and Ivy untangle the drama from r/AmItheAsshole and ask: when is a wedding *not* about the happy couple?",
       "length_bytes": 5667885,
       "pub_date": "2026-09-03T13:21:57.318210+00:00"
+    },
+    {
+      "id": "1w7262v",
+      "title": "When Family Wi-Fi Becomes a Business Expense: The Ultimate Disconnect",
+      "audio": "1w7262v.mp3",
+      "description": "Max and Ivy tackle a tale of sibling rivalry, online businesses, and a very deliberate internet cutoff. This week's drama comes from r/AmItheAsshole.",
+      "length_bytes": 4558509,
+      "pub_date": "2026-09-04T13:14:39.455974+00:00"
     }
   ]
 }

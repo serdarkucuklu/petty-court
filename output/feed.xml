@@ -12,7 +12,7 @@
       <link>https://serdarkucuklu.github.io/petty-court</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Sep 2026 13:21:57 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 13:14:39 +0000</lastBuildDate>
     <itunes:author>Petty Court</itunes:author>
     <itunes:category text="Comedy"/>
     <itunes:image href="https://serdarkucuklu.github.io/petty-court/cover.png"/>
@@ -22,6 +22,14 @@
       <itunes:email>serdarkucuklu@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:summary>Two hosts react to the internet's pettiest revenge and drama, every day.</itunes:summary>
+    <item>
+      <title>When Family Wi-Fi Becomes a Business Expense: The Ultimate Disconnect</title>
+      <description>Max and Ivy tackle a tale of sibling rivalry, online businesses, and a very deliberate internet cutoff. This week's drama comes from r/AmItheAsshole.</description>
+      <guid isPermaLink="false">1w7262v</guid>
+      <enclosure url="https://serdarkucuklu.github.io/petty-court/1w7262v.mp3" length="4558509" type="audio/mpeg"/>
+      <pubDate>Fri, 04 Sep 2026 13:14:39 +0000</pubDate>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>Wedding Hair &amp; Bribe Warfare</title>
       <description>An adult man's impeccably groomed long hair becomes the subject of intense family pressure, bribes, and guilt trips ahead of his sister's wedding. Max and Ivy untangle the drama from r/AmItheAsshole and ask: when is a wedding *not* about the happy couple?</description>
